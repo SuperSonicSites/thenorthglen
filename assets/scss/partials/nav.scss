@@ -6,8 +6,11 @@
   max-height: 7.5rem;
   min-height: 2rem;
 }
+a.navbar-item {
+  color: white;
+}  
 a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active {
-  color: green;
+  color: black;
 }
 
 /* MENU STYLES */
@@ -39,7 +42,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   width: 55px;
   height: 47px;
   padding: 1rem;
-  background: white;
+  background: $dark;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,7 +54,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   flex: none;
   width: 100%;
   height: 2px;
-  background: black;
+  background: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,7 +124,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 }
 
 .menu-wrap .menu > div {
-  background: black;
+  background: $dark;
   border-radius: 20%;
   width: 200vw;
   height: 200vw;

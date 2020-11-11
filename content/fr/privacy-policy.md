@@ -2,8 +2,8 @@
 title: Politique de Confidentialité
 bannerh1: "Politique de Confidentialité"
 layout: privacy-policy
-companyname: "SebAssaf.com"
-companyemail: "sebassaf@gmail.com"
+companyname: "Le Restaurant North Glengarry"
+companyemail: "thenorthglen@gmail.com"
 ---
 ## Politique de Confidentialité
 

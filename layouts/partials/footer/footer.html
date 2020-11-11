@@ -1,38 +1,15 @@
-<section class="section has-background-dark has-text-white has-text-centered-touch">
-
-    <div class="has-text-centered pb-6">
-    
-      {{ if eq .Site.Language.Lang "fr" }}
-    
-      <h2 class="is-size-2 mb-5">{{ .Site.Params.cta.footer_heading_fr }}</h2>
-    
-      <a href="{{ .Site.BaseURL }}services" class="button is-primary is-medium" data-aos="zoom-in" data-aos-duration="500">{{ .Site.Params.cta.cta_fr }}</a>
-  
-      {{ else }}
-  
-      <h2 class="is-size-2 mb-5">{{ .Site.Params.footer_heading_en }}</h2>
-  
-      <a href="{{ .Site.BaseURL }}en/services" class="button is-primary is-medium" data-aos="zoom-in" data-aos-duration="500">{{ .Site.Params.cta.cta_en }}</a>
-  
-    {{ end }}
-
-    </div>
+<section class="section footer_color has-text-white has-text-centered-touch">
 
   <div class="container">
-
-    <div class="divider my-5">
-      <div class="container"></div>
-  </div>
 
     <div class="columns mt-6">
 
     <div class="column is-3">
 
-      <img src="{{ .Site.BaseURL }}img/logo.png"
-                        srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        data-srcset="{{ .Site.BaseURL }}img/logo.png 1x, {{ .Site.BaseURL }}img/logo@2x.png 2x"
+      <img src="{{ .Site.BaseURL }}img/logo.jpg"
                         alt="{{ .Site.Params.businessname }}"
-                        class="lazyload"      
+                        class="lazyload"
+                        width="200px"      
                         />   
     </div>
 
@@ -44,7 +21,7 @@
         <ul class="">
           {{ range .Site.Menus.main -}}
           
-          <li class="py-1"><a class="has-text-primary" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+          <li class="py-1"><a class="footer_link" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
           
           {{ end }}
 

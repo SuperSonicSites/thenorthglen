@@ -1,26 +1,39 @@
-/* poppins-regular - latin */
+/* open-sans-regular - latin */
 @font-face {
-    font-family: 'Poppins';
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    src: local('Poppins Regular'), local('Poppins-Regular'),
-         url('/fonts/poppins-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('/fonts/poppins-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+         url('../fonts/open-sans-v18-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
-  /* poppins-700 - latin */
+  /* open-sans-700 - latin */
   @font-face {
-    font-family: 'Poppins';
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    src: local('Poppins Bold'), local('Poppins-Bold'),
-         url('/fonts/poppins-v13-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('/fonts/poppins-v13-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: local('Open Sans Bold'), local('OpenSans-Bold'),
+         url('../fonts/open-sans-v18-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v18-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lora-regular - latin */
+@font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/lora-v16-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lora-v16-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
 
-.is-size-1, .is-size-2, .is-size-3, .is-size-4, .is-size-5 {
-      line-height: 1.25;
-  }
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Lora' !important;
+}
+* {
+    font-family: 'Open Sans';
+}
 .privacy-policy {
     h2 {
         font-size: 2rem;
@@ -35,4 +48,7 @@
         list-style: circle;
         padding-left: 20px;
     }
+}
+.is-size-1, .is-size-2, .is-size-3, .is-size-4, .is-size-5 {
+    line-height: 1.25;
 }

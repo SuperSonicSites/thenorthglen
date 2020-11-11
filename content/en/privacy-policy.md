@@ -3,8 +3,8 @@ title: Privacy Policy
 description: "The privacy policy"
 layout: privacy-policy
 bannerh1: "Privacy Policy"
-companyname: "SebAssaf.com" #Company Name Here
-companyemail: "sebassaf@gmail.com" #Company Name Here
+companyname: "The Northglengarry Restaurant" #Company Name Here
+companyemail: "thenorthglen@gmail.com" #Company Name Here
 ---
 ## PRIVACY POLICY
 

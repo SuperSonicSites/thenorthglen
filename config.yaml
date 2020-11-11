@@ -1,4 +1,4 @@
-baseURL: https://www.thenorthglen.com/
+baseURL: /
 DefaultContentLanguage: en
 
 params:
@@ -18,7 +18,7 @@ params:
         facebook: 'https://www.facebook.com/TheNorthGlengarry/'
         twitter: ''
         pinterest: ''
-        instagram: ''
+        instagram: 'https://www.instagram.com/thenorthglengarry/'
     schema:
         type: Restaurant
         priceRange: $$$
