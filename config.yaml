@@ -1,0 +1,93 @@
+baseURL: https://www.thenorthglen.com/
+DefaultContentLanguage: en
+
+params:
+    businessname: 'The North Glengarry'
+    showLanguageSelector: true #true if bilingual site - false if unilingua
+    usebasin: 'https://usebasin.com/f/1acd00a6378f' #endpoint for forms
+    googlemap: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11223.689707104979!2d-74.6359188!3d45.3099926!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1bdadfff001df0c7!2sThe%20North%20Glengarry!5e0!3m2!1sen!2sca!4v1605112402884!5m2!1sen!2sca' # Map code of Google
+    gtm: 'GTM-TFFG36B'
+    hours:
+        hour1en: 'Mon, Tue - 11:00AM - 9:00PM' #Footer Hours Line #1
+        hour2en: 'Wed to Sat - 11:00AM - 10:00PM' #Footer Hours Line #2
+        hour3en: 'Sun - 11:00 - 9:00PM' #Footer Hours Line #3
+        hour1fr: 'Lun, Mar - 11:00AM - 9:00PM' #Footer Hours Line #1 in French / Leave empty if it does not apply
+        hour2fr: 'Mer to Sam - 11:00AM - 10:00PM' #Footer Hours Line #1 in French / Leave empty if it does not apply
+        hour3fr: 'Dim - 11:00 - 9:00PM' #Footer Hours Line #1 in French / Leave empty if it does not apply
+    social:
+        facebook: 'https://www.facebook.com/TheNorthGlengarry/'
+        twitter: ''
+        pinterest: ''
+        instagram: ''
+    schema:
+        type: Restaurant
+        priceRange: $$$
+        reservation: 'true'
+        openinghour: '"Mo-Tu 11:00-21:00", "We-Sa 11:00-22:00", "Su 11:00-21:00"'
+        logo: android-chrome-512x512
+        image: img/og.jpg
+        address: 8 Main St S,
+        address2:
+        city: Alexandria,
+        region: 'ON' 
+        country: Canada 
+        postalcode: K0C 1A0
+        phone: +1-613-525-3030
+        email: thenorthglen@gmail.com
+
+languages:
+  fr:
+    languageCode: fr
+    title: Le North Glengarry Restaurant
+    description: Site Tagline
+    contentDir: content/fr
+    menu:
+      main:
+        - name: Accueil
+          url: '/'
+          weight: 1
+        - name: À Propos
+          url: '/a-propos'
+          weight: 2
+        - name: Menu
+          url: "/menu"
+          weight: 3
+        - name: Contact
+          url: "/contact"
+          weight: 4
+
+  en:
+    languageCode: en
+    title: The North Glengarry Restaurant
+    description: Site Tagline
+    contentDir: content/en
+    menu:
+      main:
+        - name: Home
+          url: '/'
+          weight: 1
+        - name: About us
+          url: '/about-us/'
+          weight: 2
+        - name: Menu
+          url: '/menu/'
+          weight: 3
+        - name: Contact
+          url: '/contact/'
+          weight: 4
+
+
+enableRobotsTXT: true
+disableAliases: true
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+
+imaging:
+  resampleFilter: box
+  quality: 85
+  anchor: smart

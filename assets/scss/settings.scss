@@ -1,0 +1,12 @@
+.is-primary:hover {
+    background-color: green !important;
+  }
+.is-secondary:hover {
+    background-color: $primary !important;
+    color: white !important;
+    border-color: white !important;
+}
+.is-size-1 {
+  font-size: 2.55rem !important;
+  font-weight: 700;
+}
