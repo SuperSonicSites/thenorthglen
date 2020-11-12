@@ -2,9 +2,140 @@
 {{- partial "elements/subheader.html" . }}
 
 <section class="section is-small my-5">
-    <div class="container my-5">
-        <h2 class="is-size-2">Test</h2>
-    </div>
+    <main class="container my-5">
+        <p class="is-size-4 pb-5 mb-5">{{ .Params.intro }}</p>
+        <h2 class="is-size-2 pb-3 menu_header">{{ i18n "appetizers" }}</h2>
+        {{ $display_posts := ((.Site.GetPage "section" "/appetizers").Pages) }}
+        {{ range $post := $display_posts }}
+            <div class="menu mb-3">
+                <div class="menu__item--title">
+                <h2 class="">{{ $post.Params.title }}</h2>
+                <div class="menu__item--price">
+                  {{ if .Params.price_s }}
+                  <span class=""><small class="price_prefix">{{ i18n "small" }}</small> {{ $post.Params.price_s }} <small class="price_prefix">{{ i18n "large" }}</small></span>
+                  {{ else }}
+                  <span></span>
+                  {{ end }}
+                  {{ if .Params.price_l }}
+                  <span class="pr-1"><small class="price_prefix"></small> {{ $post.Params.price_l }}</span>
+                  {{ else }}
+                  <span></span>
+                  {{ end }}
+              </div>
+                </div>
+                {{ if .Params.description }}
+              <div class="menu__item--desc">
+                <p>{{ $post.Params.description | safeHTML }}</p>
+              </div>
+                {{ else }}
+                <span></span>
+                {{ end }}
+            </div>
+        {{ end }}
+        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "chicken" }}</h2>
+        <h3 class="is-size-4 pb-5">{{ .Params.wingspecial}}</h3>
+        {{ $display_posts := ((.Site.GetPage "section" "/Chicken").Pages) }}
+        {{ range $post := $display_posts }}
+            <div class="menu mb-3">
+                <div class="menu__item--title">
+                <h2 class="">{{ $post.Params.title }}</h2>
+                <div class="menu__item--price">
+                  {{ if .Params.price_s }}
+                  <span class="pr-2">${{ $post.Params.price_s }}</span>
+                  {{ else }}
+                  <span></span>
+                  {{ end }}
+                  {{ if .Params.price_l }}
+                  <span class="pr-2">${{ $post.Params.price_l }}</span>
+                  {{ else }}
+                  <span></span>
+                  {{ end }}
+                  {{ if .Params.price_lg }}
+                  <span class="pr-2">${{ $post.Params.price_lg }}</span>
+                  {{ else }}
+                  <span></span>
+                  {{ end }}
+              </div>
+                </div>
+                {{ if .Params.description }}
+              <div class="menu__item--desc">
+                <p>{{ $post.Params.description | safeHTML }}</p>
+              </div>
+                {{ else }}
+                <span></span>
+                {{ end }}
+            </div>
+        {{ end }}
+        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "dinner" }}</h2>
+        {{ $display_posts := ((.Site.GetPage "section" "/Dinner").Pages) }}
+        {{ range $post := $display_posts }}
+            <div class="menu mb-3">
+                <div class="menu__item--title">
+                <h2 class="">{{ $post.Params.title }}</h2>
+                <div class="menu__item--price">
+                  {{ if .Params.price_s }}
+                  <span class="pr-2">${{ $post.Params.price_s }}</span>
+                  {{ else }}
+                  <span></span>
+                  {{ end }}
+                  {{ if .Params.price_l }}
+                  <span class="pr-2">${{ $post.Params.price_l }}</span>
+                  {{ else }}
+                  <span></span>
+                  {{ end }}
+                  {{ if .Params.price_lg }}
+                  <span class="pr-2">${{ $post.Params.price_lg }}</span>
+                  {{ else }}
+                  <span></span>
+                  {{ end }}
+              </div>
+                </div>
+                {{ if .Params.description }}
+              <div class="menu__item--desc">
+                <p>{{ $post.Params.description | safeHTML }}</p>
+              </div>
+                {{ else }}
+                <span></span>
+                {{ end }}
+            </div>
+        {{ end }}
+
+        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "italian" }}</h2>
+        <h3 class="is-size-4 pb-5">{{ .Params.italianintro }}</h3>
+        {{ $display_posts := ((.Site.GetPage "section" "/Italian").Pages) }}
+        {{ range $post := $display_posts }}
+            <div class="menu mb-3">
+                <div class="menu__item--title">
+                <h2 class="">{{ $post.Params.title }}</h2>
+                <div class="menu__item--price">
+                  {{ if .Params.price_s }}
+                  <span class="pr-2">${{ $post.Params.price_s }}</span>
+                  {{ else }}
+                  <span></span>
+                  {{ end }}
+                  {{ if .Params.price_l }}
+                  <span class="pr-2">${{ $post.Params.price_l }}</span>
+                  {{ else }}
+                  <span></span>
+                  {{ end }}
+                  {{ if .Params.price_lg }}
+                  <span class="pr-2">${{ $post.Params.price_lg }}</span>
+                  {{ else }}
+                  <span></span>
+                  {{ end }}
+              </div>
+                </div>
+                {{ if .Params.description }}
+              <div class="menu__item--desc">
+                <p>{{ $post.Params.description | safeHTML }}</p>
+              </div>
+                {{ else }}
+                <span></span>
+                {{ end }}
+            </div>
+        {{ end }}
+        </main>
 </section>
+
 
 {{ end }}

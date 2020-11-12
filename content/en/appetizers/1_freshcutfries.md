@@ -1,0 +1,7 @@
+---
+title: "Fresh Cut Fries"
+description: "Lightly seasoned"
+price_s: "4"
+price_l: "7"
+weight: "1"
+---

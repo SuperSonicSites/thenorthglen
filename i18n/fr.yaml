@@ -28,7 +28,37 @@
   translation: "Informations"
 - id: send
   translation: "Envoyer Le Message"
-
+# Menu
+- id: small
+  translation: "Petite"
+- id: large
+  translation: "Large"
+- id: appetizers
+  translation: "Entrées"
+- id: beverages
+  translation: "BBreuvaages"
+- id: chicken
+  translation: "Poulet"
+- id: dinner
+  translation: "Diner"
+- id: italian
+  translation: "Italienne"
+- id: kidsmenu
+  translation: "Menu Pour Enfants"
+- id: pizza
+  translation: "Pizza"
+- id: platters
+  translation: "Assiettes"
+- id: poutine
+  translation: "Poutine"
+- id: salads
+  translation: "Salades"
+- id: sides
+  translation: "Plats d’Accompagnement"
+- id: subs
+  translation: "Sous-Marins"
+- id: wraps
+  translation: "Wraps"
 # Footer
 - id: navigate
   translation: "navigation"

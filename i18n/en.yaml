@@ -29,7 +29,37 @@
 - id: send
   translation: "Send Message"
 
-
+# Menu
+- id: small
+  translation: "Small"
+- id: large
+  translation: "Large"
+- id: appetizers
+  translation: "Appetizers"
+- id: beverages
+  translation: "Beverages"
+- id: chicken
+  translation: "Chicken"
+- id: dinner
+  translation: "Dinner"
+- id: italian
+  translation: "Italian"
+- id: kidsmenu
+  translation: "Kids Menu"
+- id: pizza
+  translation: "Pizza"
+- id: platters
+  translation: "Platters"
+- id: poutine
+  translation: "Poutine"
+- id: salads
+  translation: "Salads"
+- id: sides
+  translation: "Sides"
+- id: subs
+  translation: "Subs"
+- id: wraps
+  translation: "Wraps"
 # Footer
 - id: navigate
   translation: "navigate"

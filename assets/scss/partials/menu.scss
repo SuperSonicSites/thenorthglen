@@ -1,0 +1,40 @@
+.menu_header {
+    border-bottom: 3px solid $dark;
+    margin-bottom: 20px;
+}
+.menu {
+    border-bottom: 1px solid #eee;
+    padding: 5px 0 15px 0;
+}
+.menu__item--title {
+    font-size: 1.35rem;
+    position: relative;
+}
+.menu__item--desc {
+    padding-top: 0px;
+}
+.menu__item--price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.05rem;
+    font-weight: 700;
+    font-family: 'Open Sans';
+
+    .price_prefix {
+        font-weight: 400;
+        font-size: 0.75rem;
+    }
+}
+@media(max-width: 468px) {
+    .menu__item--title {
+        font-size: 1.15rem;
+    }
+    .menu__item--price {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .menu__item--desc {
+        font-size: 0.9rem;
+    }
+}
