@@ -22,6 +22,8 @@ params:
     schema:
         type: Restaurant
         priceRange: $$$
+        reviewcount: "531"
+        reviewvalue: "4.4" 
         reservation: 'true'
         openinghour: '"Mo-Tu 11:00-21:00", "We-Sa 11:00-22:00", "Su 11:00-21:00"'
         logo: android-chrome-512x512
@@ -67,7 +69,7 @@ languages:
           url: '/'
           weight: 1
         - name: About us
-          url: '/about-us/'
+          url: '/about/'
           weight: 2
         - name: Menu
           url: '/menu/'
