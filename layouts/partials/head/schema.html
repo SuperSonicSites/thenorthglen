@@ -5,6 +5,14 @@
     "url":"https://www.thenorthglen.com",
     "email":"thenorthglen@gmail.com",
     "telephone":"1-613-525-3030",
+    "image": "{{ $.Site.Params.schema.image }}",
+    "address" : {
+        "@type": "PostalAddress",
+        "addressLocality": "{{ $.Site.Params.schema.city }}",
+        "addressRegion": "{{ $.Site.Params.schema.region }}",
+        "postalCode": "{{ $.Site.Params.schema.postalcode }}",
+        "streetAddress": "{{ $.Site.Params.schema.address }}, {{ $.Site.Params.schema.address2 }}" 
+    },
     "aggregateRating":{
     "@type":"AggregateRating",
     "ratingValue":"4",
@@ -14,4 +22,3 @@
     "menu":"https://www.thenorthglen.com",
     "paymentAccepted":"Visa, Master Card, Amex"
     } </script>
-  
