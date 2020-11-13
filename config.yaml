@@ -68,7 +68,7 @@ languages:
         - name: Home
           url: '/'
           weight: 1
-        - name: About us
+        - name: About
           url: '/about/'
           weight: 2
         - name: Menu
