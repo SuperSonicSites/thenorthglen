@@ -12,6 +12,7 @@
 }
 .menu__item--desc {
     padding-top: 0px;
+    font-size: 16px;
 }
 .menu__item--price {
     position: absolute;
@@ -24,6 +25,21 @@
     .price_prefix {
         font-weight: 400;
         font-size: 0.75rem;
+    }
+}
+.menu__item--price2 {
+    font-size: 1.05rem !important;
+    font-weight: 700 !important;
+    font-family: 'Open Sans';
+
+    .price_prefix {
+        font-weight: 400;
+        font-size: 0.75rem;
+    }
+}
+@media(max-width: 768px) {
+    .pizza {
+        font-size: 12px !important;
     }
 }
 @media(max-width: 468px) {

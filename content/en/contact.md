@@ -1,5 +1,5 @@
 ---
-title: "It's Time To Grow"
-description: "Achieve your goals with more speed, ease and pleasure by partnering with a professional like Sebastian Assaf."
-layout: "home"
+title: "Contact Us"
+description: "To order takeout or make a reservation, call 613-525-3030. For Catering enquiries contact us via email."
+layout: "contact"
 ---

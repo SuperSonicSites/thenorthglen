@@ -9,4 +9,7 @@ heading2: Test
 
 cta_link: /menu
 cta_text: Explore Our Menu
+
+cta_link: 'tel:+1-613-525-3030'
+cta_text: "Call For Reservation"
 ---

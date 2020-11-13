@@ -1,0 +1,8 @@
+---
+title: "Spinach & Goat Cheese Salad"
+description: "Fresh spinach, mushrooms, red onions & diced tomatoes mixed in a balsamic vinaigrette then topped with pickled beets, pumpkin seeds & goat cheese"
+price_s: ""
+price_l: "11.50"
+price_lg: ""
+weight: "5"
+---

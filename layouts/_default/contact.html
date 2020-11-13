@@ -1,0 +1,13 @@
+{{ define "main" }} 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0&appId=2592927640943423&autoLogAppEvents=1" nonce="uMOjW95a"></script>
+{{- partial "elements/subheader.html" . }}
+
+<section class="section is-small my-5">
+    <main class="container my-5">
+
+
+        {{- partial "contactform.html" . }}
+    </main>
+</section>
+{{ end }}

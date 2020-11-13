@@ -50,6 +50,10 @@
   translation: "Pizza"
 - id: platters
   translation: "Platters"
+- id: platter
+  translation: "Platter"
+- id: alone
+  translation: "Alone"
 - id: poutine
   translation: "Poutine"
 - id: salads
@@ -60,6 +64,12 @@
   translation: "Subs"
 - id: wraps
   translation: "Wraps"
+- id: toppings
+  translation: "Choose Your Toppings"
+- id: veggies
+  translation: "Veggies"
+- id: meats
+  translation: "Meats"
 # Footer
 - id: navigate
   translation: "navigate"
