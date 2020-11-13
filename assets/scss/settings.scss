@@ -1,3 +1,6 @@
+nav {
+  z-index: 9999;
+}
 .is-primary:hover {
     background-color: green !important;
   }
@@ -11,7 +14,4 @@
 }
 .has-background-dark {
   background-color: #121212 !important;
-}
-.fb-page {
-  width: 100% !important;
 }
