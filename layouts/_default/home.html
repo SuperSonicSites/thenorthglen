@@ -12,13 +12,13 @@
     <div class="textbox">
         <img src="img/logo-transparent.png" alt="" class="lazyload py-5 home_logo" width="110px" height="110px">
         <h1 class="title text-uppercase">
-          THE NORTH GLENGARRY
+          {{ .Params.heading}}
         </h1>
         <div class="main_text">
         <p class="subtitle">
-            Whether you need a large table for a birthday celebration with friends, a romantic corner to bring your date, or a rustic booth for a special family outing, the North Glengarry offers you the perfect setting for any occasion!
+            {{ .Params.sub1 }}
         </p>
-<p class="subtitle">Experience the Scottish roots and rustic charm of small-town eastern Ontario with our picturesque patio. The waterfall stands as a testament to the restaurant’s history as a grist mill. Built in 1819, it’s the oldest standing building in Alexandria!
+<p class="subtitle">{{ .Params.sub2 }}
         </p>
     </div>
     <div class="level">

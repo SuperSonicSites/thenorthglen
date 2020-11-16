@@ -1,0 +1,9 @@
+---
+title: "Dips"
+description: "Garlic ~ Ranch ~ Sour Cream ~ Caesar"
+price_s: "1½"
+price_m: ""
+price_l: ""
+price_xl: ""
+weight: "18"
+---

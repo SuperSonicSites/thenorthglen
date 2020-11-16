@@ -1,0 +1,9 @@
+---
+title: "Addon: Extra Item or Double"
+description: ""
+price_s: "1½"
+price_m: "2"
+price_l: "2½"
+price_xl: "3"
+weight: "15"
+---
