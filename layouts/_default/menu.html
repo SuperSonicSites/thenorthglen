@@ -11,7 +11,7 @@
         {{ $display_posts := ((.Site.GetPage "section" "/appetizers").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 columns is-mobile">
-              <div class="column is-6">
+              <div class="column is-5">
                 <div class="menu__item--title">
                 <h4 class="">{{ $post.Params.title }}</h4>
                 {{ if .Params.description }}
@@ -23,7 +23,7 @@
                 {{ end }}
               </div>
             </div>
-              <div class="column is-6 is-flex is-justified-end">
+              <div class="column is-7 is-flex is-justified-end">
                 <div class="menu__item--price2">
                   {{ if .Params.price_s }}
                   <span class="pr-1 menu__item--price2"><small class="price_prefix">{{ i18n "small" }}</small> {{ $post.Params.price_s }} <small class="price_prefix">{{ i18n "large" }}</small></span>
@@ -90,7 +90,7 @@
         {{ $display_posts := ((.Site.GetPage "section" "/Wraps").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 level is-mobile">
-              <div class="column p-0 is-8">
+              <div class="column p-0 is-6">
                 <div class="menu__item--title">
                 <h4 class="">{{ $post.Params.title }}</h4>
                 {{ if .Params.description }}
@@ -102,7 +102,7 @@
                 {{ end }}
               </div>
             </div>
-              <div class="column is-4 is-flex is-justified-end">
+              <div class="column is-6 is-flex is-justified-end">
                 <div class="menu__item--price2">
                   {{ if .Params.price_s }}
                   <span class="pr-2 menu__item--price2"><small class="price_prefix">Wrap</small> {{ $post.Params.price_s }}</span>
