@@ -5,7 +5,13 @@
 
 <section class="section is-small my-5">
     <main class="container my-5">
-
+        <div class="columns mt-5">
+            <div class="column is-12">
+                 <h2 class="title is-size-3 text-uppercase has-text-centered-touch">{{ i18n "contactdetail" }}</h2>
+       
+                 <div class="pt-4 mt-5">
+                   {{ .Params.contactinfo | safeHTML}}
+               </div>
 
         {{- partial "contactform.html" . }}
     </main>
