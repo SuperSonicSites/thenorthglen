@@ -1,8 +1,8 @@
 ---
 title: "Greek Salad"
 description: ""
-price_s: "9"
-price_l: "12"
+price_s: "10"
+price_l: "13"
 price_lg: ""
-weight: "2"
+weight: "3"
 ---

@@ -10,8 +10,10 @@ plattersintro: "All platters are served with fresh-cut fries, & homemade colesla
 Gluten free buns available for $1½<br>
 Upgrade fries for sweet potato fries or poutine for $3"
 wrapsintro: "All platters include fresh cut fries & homemade coleslaw. Gluten free option available for $1½"
-subsintro: "All subs are topped with cheese & toasted & finished with shredded lettuce, tomato & pickles. As a platter add $2½"
+sandintro: "As a platter add $4.00.<br> All platters include fresh cut fries & homemade coleslaw."
+subsintro: "As a platter add $3.00.<br>All subs are topped with cheese & toasted & finished with shredded lettuce, tomato & pickles. "
 saladsintro: "Dressings ~ creamy garlic, balsamic, Greek, blue cheese, Italian, lemon oil, French or Caesar"
+wingsintro: "Dry or tossed in sauce. Served with carrots, celery, & ranch dressing. Sauces are available in mild, medium, hot, suicide, honey garlic, sweet chili, BBQ, or salt & pepper"
 kidsintro: "All of our kids meals include juice or milk, & dessert"
 
 pizzaveggies: "Green Peppers ~ Onions ~ Mushrooms ~ Tomatoes ~ Hot Peppers ~ Green Olives ~ Black Olives"

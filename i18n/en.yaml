@@ -55,11 +55,21 @@
 - id: alone
   translation: "Alone"
 - id: poutine
-  translation: "Poutine"
+  translation: "Poutines"
 - id: salads
   translation: "Salads"
+- id: surf
+  translation: "Surf & Turf"
+- id: single
+  translation: "Single"
+- id: double
+  translation: "Double"
 - id: sides
   translation: "Sides"
+- id: addons
+  translation: "Add-Ons"
+- id: wings
+  translation: "Chicken Wings"
 - id: subs
   translation: "Subs"
 - id: wraps
