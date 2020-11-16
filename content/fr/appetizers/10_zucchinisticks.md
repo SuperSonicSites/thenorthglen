@@ -1,5 +1,5 @@
 ---
-title: "Zucchini Sticks"
+title: "Bâtonnets de courgette"
 description: ""
 price_s: ""
 price_l: "9"

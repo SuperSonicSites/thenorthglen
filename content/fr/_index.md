@@ -4,11 +4,11 @@ description: "Le North Glengarry est un restaurant entièrement licencié. Nous 
 layout: "home"
 
 heading: THE NORTH GLENGARRY
-sub1: "Whether you need a large table for a birthday celebration with friends, a romantic corner to bring your date, or a rustic booth for a special family outing, the North Glengarry offers you the perfect setting for any occasion!"
-sub2: "Experience the Scottish roots and rustic charm of small-town eastern Ontario with our picturesque patio. The waterfall stands as a testament to the restaurant’s history as a grist mill. Built in 1819, it’s the oldest standing building in Alexandria!"
+sub1: "Que vous ayez besoin d'une grande table pour un anniversaire entre amis, d'un coin romantique pour emmener votre rendez-vous ou d'un stand rustique pour une sortie spéciale en famille, le North Glengarry vous offre le cadre idéal pour toutes les occasions!"
+sub2: "Découvrez les racines écossaises et le charme rustique des petites villes de l'est de l'Ontario grâce à notre patio pittoresque. La cascade témoigne de l’histoire du restaurant en tant que moulin à farine. Construit en 1819, c'est le plus ancien bâtiment debout à Alexandria!"
 
-cta_link: /menu
-cta_text: Explore Our Menu
+cta_link: "fr/menu"
+cta_text: Explorez Notre Menu
 
 cta_link2: 'tel:+1-613-525-3030'
 cta_text2: "Call For Reservation"

@@ -1,6 +1,6 @@
 ---
-title: "Chicken Brochette"
-description: "A delicious brochette cooked on our open grill, served with fresh-cut fries or rice pilaf & fresh salad."
+title: "Brochette de poulet"
+description: "Une délicieuse brochette cuite sur notre grill ouvert, servie avec des frites fraîchement coupées ou du riz pilaf et une salade fraîche."
 price_s: ""
 price_l: "18"
 price_lg: ""

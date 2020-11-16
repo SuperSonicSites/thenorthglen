@@ -55,6 +55,9 @@
   min-height: 100%;
   padding: 0 15px;
 }
+.callbutton {
+  display: none;
+}
 .title {
     font-size: 80px;
     font-weight: 400;
@@ -72,8 +75,14 @@
     .bg-video-wrap {
       display: none;
     }
+    .hero {
+      min-height: 125vh;
+    }
   }
 @media(max-width: 468px) {
+    .callbutton {
+      display: block;
+    }
     .title {
       font-size: 30px;
     }

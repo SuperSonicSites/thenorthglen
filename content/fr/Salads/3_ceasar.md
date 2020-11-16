@@ -1,5 +1,5 @@
 ---
-title: "Ceasar Salad"
+title: "Salade César"
 description: ""
 price_s: "9"
 price_l: "11"

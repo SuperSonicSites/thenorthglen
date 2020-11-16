@@ -1,6 +1,6 @@
 ---
-title: "Dips"
-description: "Garlic ~ Ranch ~ Sour Cream ~ Caesar"
+title: "Trempettes"
+description: "Ail ~ Ranch ~ Crème sure ~ César"
 price_s: "1½"
 price_m: ""
 price_l: ""

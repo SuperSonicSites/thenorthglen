@@ -1,6 +1,6 @@
 ---
-title: "NY Strip Steak - 10oz"
-description: "8 oz. of AAA beef, grilled on an open flame just the way you like it! Served with fresh-cut fries or rice pilaf, & garden salad."
+title: 'Contre-filet "New York" - 10oz'
+description: "8 onces de bœuf AAA, grillé sur une flamme nue comme vous l'aimez! Servi avec frites fraîchement coupées ou riz pilaf et salade du jardin."
 price_s: ""
 price_l: "26"
 price_lg: ""

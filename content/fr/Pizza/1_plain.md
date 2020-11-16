@@ -1,5 +1,5 @@
 ---
-title: "Plain"
+title: "Nature"
 description: ""
 price_s: "9"
 price_m: "14½"

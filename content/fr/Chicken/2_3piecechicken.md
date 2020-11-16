@@ -1,6 +1,6 @@
 ---
-title: "3-Piece Chicken Dinner"
-description: "3 pieces of crispy chicken, breaded in-house, with fresh-cut fries, coleslaw, & gravy."
+title: "3 morceaux de poulet"
+description: "3 morceaux de poulet croustillant, panés sur place, avec frites fraîchement coupées, salade de chou et sauce"
 price_s: ""
 price_l: "14"
 price_lg: ""

@@ -1,5 +1,5 @@
 ---
-title: "Avocado Bites"
+title: "Bouchés d'avocat"
 description: ""
 price_s: ""
 price_l: "10"

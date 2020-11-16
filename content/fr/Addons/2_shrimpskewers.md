@@ -1,5 +1,5 @@
 ---
-title: "Single Shrimp Skewer"
+title: "Brochette de crevette"
 description: ""
 price_s: ""
 price_l: ""

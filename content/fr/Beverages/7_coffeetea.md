@@ -1,5 +1,5 @@
 ---
-title: "Coffee or Tea"
+title: "Thé ou Café"
 description: ""
 price_s: "1.50"
 price_l: ""

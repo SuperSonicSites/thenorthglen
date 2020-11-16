@@ -1,5 +1,5 @@
 ---
-title: "Garden Salad"
+title: "Salade du jardin"
 description: ""
 price_s: "7.50"
 price_l: "10"

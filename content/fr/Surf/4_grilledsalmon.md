@@ -1,6 +1,6 @@
 ---
-title: "Grilled Salmon"
-description: "6 oz. salmon seared to perfection, served with fresh salad, & a lemon wedge, fresh-cut fries or rice pilaf"
+title: "Saumon grillé"
+description: "6 onces. saumon poêlé à la perfection, servi avec salade fraîche et quartier de citron, frites fraîchement coupées ou riz pilaf"
 price_s: ""
 price_l: "18"
 price_lg: ""

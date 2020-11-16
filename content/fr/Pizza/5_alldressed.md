@@ -1,6 +1,6 @@
 ---
-title: "All Dressed"
-description: "mushrooms, green peppers, & pepperoni"
+title: "Toute Garnie"
+description: "champignons, poivrons verts et pepperoni"
 price_s: "12½"
 price_m: "18"
 price_l: "22"

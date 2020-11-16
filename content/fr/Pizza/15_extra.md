@@ -1,5 +1,5 @@
 ---
-title: "Addon: Extra Item or Double"
+title: "Ajout: article supplémentaire ou double"
 description: ""
 price_s: "1½"
 price_m: "2"

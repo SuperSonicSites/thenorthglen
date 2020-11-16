@@ -1,5 +1,5 @@
 ---
-title: "Calamari"
+title: "Calemars"
 description: ""
 price_s: ""
 price_l: "11"

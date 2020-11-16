@@ -1,5 +1,5 @@
 ---
-title: "Rice Pilaf"
+title: "Rix Pilaf"
 description: ""
 price_s: "3.50"
 price_l: ""

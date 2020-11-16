@@ -1,6 +1,6 @@
 ---
-title: "Tomato Basil Penne"
-description: "Penne pasta served with our Tomato Basil Rosée, fresh tomatoes, spinach, onions andmushrooms"
+title: "Penne aux tomates et basilique"
+description: "Pâtes penne servies avec notre tomate basilic rosée, tomates fraîches, épinards, oignons et champignons"
 price_s: ""
 price_l: "13"
 price_lg: ""

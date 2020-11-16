@@ -1,6 +1,6 @@
 ---
 title: "Donair"
-description: "Slices of grilled beef gyro over lettuce, tomatoes, pickles & garlic sauce, wrapped in a pita"
+description: "Tranches de gyro de bœuf grillé sur laitue, tomates, cornichons et sauce à l'ail, enveloppées dans un pita"
 price_s: "7.50"
 price_l: "11.50"
 price_lg: ""

@@ -1,5 +1,5 @@
 ---
-title: "Sweet Potato Fries"
+title: "Frites de pomme de terre douce"
 description: ""
 price_s: ""
 price_l: "8.50"

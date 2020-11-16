@@ -1,6 +1,6 @@
 ---
-title: "Donair Salad"
-description: "Garden Salad tossed in lemon oil dressing & topped with fresh gyro beef & pickles. Finished with garlic sauce"
+title: "Salade Donair"
+description: "Salade du jardin mélangée à une vinaigrette à l'huile de citron et garnie de bœuf gyro frais et de cornichons. Fini avec sauce à l'ail"
 price_s: ""
 price_l: "14"
 price_lg: ""

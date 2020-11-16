@@ -1,6 +1,6 @@
 ---
-title: "Hot Hamburger Sandwich"
-description: "½ LB. of charbroiled ground beef, smothered in our delicious homemade gravy"
+title: "Hambourgeois chaud"
+description: "½ LB. de bœuf haché grillé, recouvert de notre délicieuse sauce maison"
 price_s: ""
 price_l: "13"
 price_lg: ""

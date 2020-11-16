@@ -1,5 +1,5 @@
 ---
-title: "Baked Spaghetti"
+title: "Spaghetti au four"
 description: ""
 price_s: ""
 price_l: "12"

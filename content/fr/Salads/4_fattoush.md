@@ -1,6 +1,6 @@
 ---
-title: "Fattoush Salad"
-description: "Garden Salad tossed in traditional Lebanese dressing of lemon, garlic & oil, topped with fried pita"
+title: "Salade Fattoush"
+description: "Salade du jardin mélangée à une vinaigrette libanaise traditionnelle au citron, à l'ail et à l'huile, garnie de pita frit"
 price_s: ""
 price_l: "10.50"
 price_lg: ""

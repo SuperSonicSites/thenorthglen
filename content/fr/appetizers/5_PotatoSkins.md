@@ -1,5 +1,5 @@
 ---
-title: "Potato Skins"
+title: "Pelure de pommes de terre"
 description: ""
 price_s: ""
 price_l: "9"

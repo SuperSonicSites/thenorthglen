@@ -1,5 +1,5 @@
 ---
-title: "Spaghetti with Meatballs"
+title: "Spaghetti boulettes de viande"
 description: ""
 price_s: ""
 price_l: "14"

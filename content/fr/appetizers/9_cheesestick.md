@@ -1,5 +1,5 @@
 ---
-title: "Cheese Sticks"
+title: "Bâtonnets de fromage"
 description: ""
 price_s: "8"
 price_l: "10"

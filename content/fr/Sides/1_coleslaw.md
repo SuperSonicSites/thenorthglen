@@ -1,5 +1,5 @@
 ---
-title: "Coleslaw"
+title: "Salade de choux"
 description: ""
 price_s: "2"
 price_l: ""

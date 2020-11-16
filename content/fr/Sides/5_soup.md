@@ -1,5 +1,5 @@
 ---
-title: "Soup of the Day"
+title: "Soupe du jour"
 description: ""
 price_s: "4"
 price_l: ""

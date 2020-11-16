@@ -1,5 +1,5 @@
 ---
-title: "Campers Poutine"
+title: "Poutine du campeur"
 description: ""
 price_s: "10"
 price_l: "14"

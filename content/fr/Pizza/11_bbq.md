@@ -1,6 +1,6 @@
 ---
-title: "BBQ Pizza"
-description: "chicken, onions, bacon, & mushrooms, with BBQ & pizza sauce"
+title: "Pizza BBQ Poulet"
+description: "poulet, oignons, bacon et champignons, avec sauce barbecue et pizza"
 price_s: "14"
 price_m: "20"
 price_l: "24"

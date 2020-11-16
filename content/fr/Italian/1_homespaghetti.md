@@ -1,5 +1,5 @@
 ---
-title: "Spaghetti with Homemade Meat Sauce"
+title: "Spaghetti"
 description: ""
 price_s: ""
 price_l: "9"

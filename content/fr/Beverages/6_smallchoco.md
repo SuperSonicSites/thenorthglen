@@ -1,5 +1,5 @@
 ---
-title: "Small Chocolate Milk"
+title: "Petit lait au chocolat"
 description: ""
 price_s: "1.75"
 price_l: ""

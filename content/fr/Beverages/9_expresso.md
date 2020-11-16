@@ -1,5 +1,5 @@
 ---
-title: "Cappuccino or/ou Mocha Latté or/ou Espresso"
+title: "Cappuccino ou Mocha Latté ou Espresso"
 description: ""
 price_s: "3.75"
 price_l: ""

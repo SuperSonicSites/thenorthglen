@@ -1,5 +1,5 @@
 ---
-title: "Chocolate Milk"
+title: "Lait au chocolat"
 description: ""
 price_s: "3"
 price_l: ""

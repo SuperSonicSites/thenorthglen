@@ -1,6 +1,6 @@
 ---
-title: "Spinach Dip"
-description: "Topped with fresh diced tomatoes & served with naan bread"
+title: "Trempette aux épinards"
+description: "Garni de tomates fraîches en dés et servi avec du pain naan"
 price_s: ""
 price_l: "11.50"
 weight: "6"

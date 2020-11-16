@@ -1,5 +1,5 @@
 ---
-title: "Addon: Double Cheese"
+title: "Ajout: Double fromage"
 description: ""
 price_s: "3"
 price_m: "3½"

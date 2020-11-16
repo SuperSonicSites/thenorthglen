@@ -10,7 +10,7 @@
     </div>
 </div>
     <div class="textbox">
-        <img src="img/logo-transparent.png" alt="" class="lazyload py-5 home_logo" width="110px" height="110px">
+        <img src="{{ .Site.BaseURL }}img/logo-transparent.png" alt="" class="lazyload py-5 home_logo" width="110px" height="110px">
         <h1 class="title text-uppercase">
           {{ .Params.heading}}
         </h1>
@@ -22,8 +22,8 @@
         </p>
     </div>
     <div class="level">
-        <a href="{{ .Params.cta_link }}" class="button is-secondary is-medium mt-5 mx-2">{{ .Params.cta_text }}</a>
-        <a href="{{ .Params.cta_link2 }}" class="button is-call is-medium mt-5 mx-2">{{ .Params.cta_text2 }}</a>
+        <a href="{{ .Site.BaseURL }}{{ .Params.cta_link }}" class="button is-secondary is-medium mt-5 mx-2">{{ .Params.cta_text }}</a>
+        <a href="tel:1-613-525-3030" class="button is-call is-medium mt-5 mx-2 callbutton">{{ .Params.cta_text2 }}</a>
       </div>
       </div>
     </div>

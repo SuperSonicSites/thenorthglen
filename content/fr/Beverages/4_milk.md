@@ -1,5 +1,5 @@
 ---
-title: "Milk"
+title: "Lait"
 description: ""
 price_s: "2"
 price_l: ""

@@ -1,6 +1,6 @@
 ---
 title: "About The North Glengarry"
-description: "TBD"
+description: "Husband and wife duo Adriano and Marie-Claude always dreamed of owning their own restaurant and having a family business. The North Glengarry restaurant embodies that family atmosphere."
 layout: "about"
 
 heading1: "We love what we do."

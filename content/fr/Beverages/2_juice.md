@@ -1,5 +1,5 @@
 ---
-title: "Juice"
+title: "Jus"
 description: ""
 price_s: "2"
 price_l: ""

@@ -1,5 +1,5 @@
 ---
-title: "Addon: Extra Chicken, Steak, Ground Beef, or Smoked Meat"
+title: "Ajout: Extra poulet, steak, boeuf haché ou viande fumée"
 description: ""
 price_s: "3"
 price_m: "3½"

@@ -36,7 +36,7 @@
 - id: appetizers
   translation: "Entrées"
 - id: beverages
-  translation: "BBreuvaages"
+  translation: "Breuvaages"
 - id: chicken
   translation: "Poulet"
 - id: dinner
@@ -54,7 +54,7 @@
 - id: alone
   translation: "Seul"
 - id: poutine
-  translation: "Poutines"
+  translation: "Frites & Poutines"
 - id: salads
   translation: "Salades"
 - id: surf

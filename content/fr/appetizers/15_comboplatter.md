@@ -1,6 +1,6 @@
 ---
-title: "Combo Platter"
-description: "Chicken fingers, jalapeño poppers, onion rings, cheesesticks & fries (served with plum, and garlic sauces)"
+title: "Assiette combinée"
+description: "Bâtonnets de poulet, poppers jalapeño, rondelles d'oignon, bâtonnets de fromage et frites (servis avec sauces aux prunes et à l'ail)"
 price_s: ""
 price_l: "15"
 weight: "15"

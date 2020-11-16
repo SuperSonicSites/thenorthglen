@@ -1,5 +1,5 @@
 ---
-title: "Fresh-Cut Fries"
+title: "Frites fraîchement coupées"
 description: ""
 price_s: "3"
 price_l: ""

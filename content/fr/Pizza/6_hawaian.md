@@ -1,6 +1,6 @@
 ---
-title: "Hawaiian"
-description: "ham & pineapple"
+title: "Hawaiienne"
+description: "Jambon & ananas"
 price_s: "11½"
 price_m: "17"
 price_l: "20"

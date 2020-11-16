@@ -1,5 +1,5 @@
 ---
-title: "Chicken Fingers & Fries"
+title: "Doits de poulet avec frites"
 description: ""
 price_s: "7.50"
 price_l: ""

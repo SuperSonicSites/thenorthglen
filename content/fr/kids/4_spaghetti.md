@@ -1,5 +1,5 @@
 ---
-title: "Spaghetti & Meat Sauce"
+title: "Spaghetti sauce à la viande"
 description: ""
 price_s: "7.50"
 price_l: ""

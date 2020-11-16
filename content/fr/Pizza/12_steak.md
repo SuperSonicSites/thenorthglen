@@ -1,6 +1,6 @@
 ---
-title: "Steak Pizza"
-description: "diced sliced of sirloin steak with mushrooms, onions, & green peppers"
+title: "Pizza au steak"
+description: "coupé en dés de steak de surlonge avec champignons, oignons et poivrons verts"
 price_s: "14"
 price_m: "20"
 price_l: "24"

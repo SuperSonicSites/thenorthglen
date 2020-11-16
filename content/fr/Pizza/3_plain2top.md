@@ -1,5 +1,5 @@
 ---
-title: "Plain + 2 Toppings"
+title: "Nature + 2 garnitures"
 description: ""
 price_s: "11½"
 price_m: "17"

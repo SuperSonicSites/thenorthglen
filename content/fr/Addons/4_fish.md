@@ -1,5 +1,5 @@
 ---
-title: "Piece of Fish"
+title: "Morceau de poisson"
 description: ""
 price_s: ""
 price_l: ""

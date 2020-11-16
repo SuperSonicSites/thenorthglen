@@ -1,5 +1,5 @@
 ---
-title: "Greek Salad"
+title: "Salade Grecque"
 description: ""
 price_s: "10"
 price_l: "13"

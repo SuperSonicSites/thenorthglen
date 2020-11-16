@@ -1,5 +1,5 @@
 ---
-title: "Chicken Brochette"
+title: "Brochette de poulet"
 description: ""
 price_s: ""
 price_l: ""

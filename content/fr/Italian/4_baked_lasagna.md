@@ -1,6 +1,6 @@
 ---
-title: "Baked Lasagna"
-description: "Homemade meat sauce, pepperoni, & cheese over lasagna noodles"
+title: "Lasagne"
+description: "Sauce à la viande maison, pepperoni et fromage sur des nouilles à lasagne"
 price_s: ""
 price_l: "13"
 price_lg: ""
