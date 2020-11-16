@@ -11,7 +11,7 @@
         {{ $display_posts := ((.Site.GetPage "section" "/appetizers").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 columns is-mobile">
-              <div class="column is-8">
+              <div class="column is-6">
                 <div class="menu__item--title">
                 <h4 class="">{{ $post.Params.title }}</h4>
                 {{ if .Params.description }}
@@ -23,7 +23,7 @@
                 {{ end }}
               </div>
             </div>
-              <div class="column is-4 is-flex is-justified-end">
+              <div class="column is-6 is-flex is-justified-end">
                 <div class="menu__item--price2">
                   {{ if .Params.price_s }}
                   <span class="pr-1 menu__item--price2"><small class="price_prefix">{{ i18n "small" }}</small> {{ $post.Params.price_s }} <small class="price_prefix">{{ i18n "large" }}</small></span>
@@ -50,7 +50,7 @@
         {{ $display_posts := ((.Site.GetPage "section" "/poutine").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 columns is-mobile">
-              <div class="column is-8">
+              <div class="column is-6">
                 <div class="menu__item--title">
                 <h4 class="">{{ $post.Params.title }}</h4>
                 {{ if .Params.description }}
@@ -62,7 +62,7 @@
                 {{ end }}
               </div>
             </div>
-              <div class="column is-4 is-flex is-justified-end">
+              <div class="column is-6 is-flex is-justified-end">
                 <div class="menu__item--price2">
                   {{ if .Params.price_s }}
                   <span class="pr-1 menu__item--price2"><small class="price_prefix">{{ i18n "small" }}</small> {{ $post.Params.price_s }} <small class="price_prefix">{{ i18n "large" }}</small></span>
@@ -361,7 +361,7 @@
         {{ $display_posts := ((.Site.GetPage "section" "/Sides").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 columns is-mobile">
-              <div class="column is-8">
+              <div class="column is-6">
                 <div class="menu__item--title">
                 <h4 class="">{{ $post.Params.title }}</h4>
                 {{ if .Params.description }}
@@ -373,7 +373,7 @@
                 {{ end }}
               </div>
             </div>
-              <div class="column is-4 is-flex is-justified-end">
+              <div class="column is-6 is-flex is-justified-end">
                 <div class="menu__item--price2">
                   {{ if .Params.price_s }}
                   <span class="pr-2 menu__item--price2">{{ $post.Params.price_s }}</span>
@@ -400,7 +400,7 @@
         {{ $display_posts := ((.Site.GetPage "section" "/Addons").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 columns is-mobile">
-              <div class="column is-8">
+              <div class="column is-6">
                 <div class="menu__item--title">
                 <h4 class="">{{ $post.Params.title }}</h4>
                 {{ if .Params.description }}
@@ -412,7 +412,7 @@
                 {{ end }}
               </div>
             </div>
-              <div class="column is-4 is-flex is-justified-end">
+              <div class="column is-6 is-flex is-justified-end">
                 <div class="menu__item--price2">
                   {{ if .Params.price_s }}
                   <span class="pr-2 menu__item--price2">{{ $post.Params.price_s }}</span>
@@ -521,7 +521,7 @@
         {{ $display_posts := ((.Site.GetPage "section" "/kids").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 columns is-mobile">
-              <div class="column is-8">
+              <div class="column is-6">
                 <div class="menu__item--title">
                 <h4 class="">{{ $post.Params.title }}</h4>
                 {{ if .Params.description }}
@@ -533,7 +533,7 @@
                 {{ end }}
               </div>
             </div>
-              <div class="column is-4 is-flex is-justified-end">
+              <div class="column is-6 is-flex is-justified-end">
                 <div class="menu__item--price2">
                   {{ if .Params.price_s }}
                   <span class="pr-2 menu__item--price2">{{ $post.Params.price_s }}</span>
@@ -561,7 +561,7 @@
         {{ $display_posts := ((.Site.GetPage "section" "/Beverages").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 columns is-mobile">
-              <div class="column is-8">
+              <div class="column is-6">
                 <div class="menu__item--title">
                 <h4 class="">{{ $post.Params.title }}</h4>
                 {{ if .Params.description }}
@@ -573,7 +573,7 @@
                 {{ end }}
               </div>
             </div>
-              <div class="column is-4 is-flex is-justified-end">
+              <div class="column is-6 is-flex is-justified-end">
                 <div class="menu__item--price2">
                   {{ if .Params.price_s }}
                   <span class="pr-2 menu__item--price2">{{ $post.Params.price_s }}</span>
