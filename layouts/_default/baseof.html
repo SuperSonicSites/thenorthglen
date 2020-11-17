@@ -18,7 +18,8 @@
     <!-- Search Engine Optimization -->
     <title>{{.Title}} - {{ $.Site.Title }}</title>
 
-    {{- partial "head/schema.html" . }} {{ if .Params.hidden }}
+    {{- partial "head/schema.html" . }}
+    {{- partial "head/meta.html" . }} {{ if .Params.hidden }}
 
     <meta name="robots" content="noindex" />
 
