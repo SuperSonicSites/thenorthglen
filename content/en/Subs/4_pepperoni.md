@@ -1,6 +1,6 @@
 ---
 title: "Steak & Pepperoni"
-description: 'Loads of Italian pepperoni with garlic sauce'
+description: 
 price_s: "8"
 price_l: "10"
 price_lg: ""

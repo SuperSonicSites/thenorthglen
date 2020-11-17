@@ -1,6 +1,6 @@
 ---
 title: "Steak & Pepperoni"
-description: 'Served with sautéed mushrooms & onions, & garlic sauce'
+description: 
 price_s: "9"
 price_l: "11"
 price_lg: ""

@@ -322,7 +322,7 @@
 
         <!-- Chicken-->
         <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "chicken" }}</h2>
-        <h3 class="is-size-4 pb-5">{{ .Params.wingspecial}}</h3>
+        
         {{ $display_posts := ((.Site.GetPage "section" "/Chicken").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3">
@@ -354,6 +354,46 @@
                 <span></span>
                 {{ end }}
             </div>
+        {{ end }}
+        <!-- Wings -->
+        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "wings" }}</h2>
+        <h3 class="is-size-4 pb-5">{{ .Params.wingsintro | safeHTML }}</h3>
+        <h3 class="is-size-4 pb-5"><strong>{{ .Params.wingspecial}}</strong></h3>
+        {{ $display_posts := ((.Site.GetPage "section" "/Wings").Pages) }}
+        {{ range $post := $display_posts }}
+            <div class="menu mb-3 level is-mobile">
+              <div class="column p-0 is-8">
+                <div class="menu__item--title">
+                <h4 class="">{{ $post.Params.title }}</h4>
+                {{ if .Params.description }}
+                <div class="menu__item--desc">
+                <p>{{ $post.Params.description | safeHTML }}</p>
+              </div>
+                {{ else }}
+                <span></span>
+                {{ end }}
+              </div>
+            </div>
+              <div class="column is-4 is-flex is-justified-end">
+                <div class="menu__item--price2">
+                  {{ if .Params.price_s }}
+                  <span class="pr-2 menu__item--price2"><small class="price_prefix">1lbs</small> {{ $post.Params.price_s }}</span>
+                  {{ else }}
+                  <span></span>
+                  {{ end }}
+                  {{ if .Params.price_l }}
+                  <span class="pr-2"><small class="price_prefix">2lbs</small> {{ $post.Params.price_l }}</span>
+                  {{ else }}
+                  <span></span>
+                  {{ end }}
+                  {{ if .Params.price_lg }}
+                  <span class="pr-2"><small class="price_prefix">3lbs</small> ${{ $post.Params.price_lg }}</span>
+                  {{ else }}
+                  <span></span>
+                  {{ end }}
+              </div>
+                </div>
+              </div>
         {{ end }}
 
         <!-- Sides -->
@@ -457,7 +497,7 @@
             <div class="menu mb-3">
               <div class="columns is-mobile">
                 <div class="column menu__item--title">
-                  <h4 class="">{{ $post.Params.title }}</h4>
+                  <h4 class="">{{ $post.Params.title | safeHTML }}</h4>
                   <div class="menu__item--desc">
                     {{ if .Params.description }}
                     <p>{{ $post.Params.description | safeHTML }}</p>
@@ -476,45 +516,7 @@
             </div>
         {{ end }}
 
-        <!-- Wings -->
-        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "wings" }}</h2>
-        <h3 class="is-size-4 pb-5">{{ .Params.wingsintro | safeHTML }}</h3>
-        {{ $display_posts := ((.Site.GetPage "section" "/Wings").Pages) }}
-        {{ range $post := $display_posts }}
-            <div class="menu mb-3 level is-mobile">
-              <div class="column p-0 is-8">
-                <div class="menu__item--title">
-                <h4 class="">{{ $post.Params.title }}</h4>
-                {{ if .Params.description }}
-                <div class="menu__item--desc">
-                <p>{{ $post.Params.description | safeHTML }}</p>
-              </div>
-                {{ else }}
-                <span></span>
-                {{ end }}
-              </div>
-            </div>
-              <div class="column is-4 is-flex is-justified-end">
-                <div class="menu__item--price2">
-                  {{ if .Params.price_s }}
-                  <span class="pr-2 menu__item--price2"><small class="price_prefix">1lbs</small> {{ $post.Params.price_s }}</span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
-                  {{ if .Params.price_l }}
-                  <span class="pr-2"><small class="price_prefix">2lbs</small> {{ $post.Params.price_l }}</span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
-                  {{ if .Params.price_lg }}
-                  <span class="pr-2"><small class="price_prefix">3lbs</small> ${{ $post.Params.price_lg }}</span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
-              </div>
-                </div>
-              </div>
-        {{ end }}
+        
 
         <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "kidsmenu" }}</h2>
         <h3 class="is-size-4 pb-5">{{ .Params.kidsintro | safeHTML }}</h3>

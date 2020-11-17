@@ -1,6 +1,6 @@
 ---
 title: Pepperoni
-description: "Rempli de pepperoni italien avec sauce à l'ail"
+description:
 price_s: "8"
 price_l: "10"
 price_lg: ""
