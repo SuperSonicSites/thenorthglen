@@ -78,10 +78,13 @@
     .homesection {
       min-height: 900px !important;
     }
+    .callbutton {
+      display: inline-block !important;
+    }
   }
 @media(max-width: 468px) {
     .callbutton {
-      display: block;
+      display: inline-block;
     }
     .title {
       font-size: 30px;
