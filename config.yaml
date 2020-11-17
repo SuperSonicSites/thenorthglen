@@ -27,7 +27,7 @@ params:
         reservation: 'true'
         openinghour: '"Mo-Tu 11:00-21:00", "We-Sa 11:00-22:00", "Su 11:00-21:00"'
         logo: android-chrome-512x512
-        image: img/og.jpg
+        image: ../img/og.jpg
         address: 8 Main St S,
         address2:
         city: Alexandria
