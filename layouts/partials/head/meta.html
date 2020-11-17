@@ -1,15 +1,5 @@
 <!-- Meta Tags -->
 <title itemprop="name">{{ .Title }} | {{ .Site.Title }}</title>
-<meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
-<meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />
-<meta itemprop="name" content="{{ .Title }} | {{ .Site.Title }}" />
-<meta name="application-name" content="{{ .Title }} | {{ .Site.Title }}" />
-<meta property="og:site_name" content="{{ .Site.Title }}" />
-
-<meta name="description" content="{{ .Params.description }}" />
-<meta itemprop="description" content="{{ .Params.description }}" />
-<meta property="og:description" content="{{ .Params.description }}" />
-<meta name="twitter:description" content="{{ .Params.description }}" />
 
 <meta property="og:type" content="website" />
 <meta name="robots" content="index,follow" /> 
@@ -31,17 +21,20 @@
 <meta property="og:locale" content="{{ .Site.LanguageCode }}">
 <meta name="language" content="{{ .Site.LanguageCode }}">
 
-{{ with .Params.image }} 
-<meta itemprop="image" content="{{ . | absURL }}" />
-<meta property="og:image" content="{{ . | absURL }}" /> 
-<meta name="twitter:image" content="{{ . | absURL }}" />
-<meta name="twitter:image:src" content="{{ $.Site.BaseURL }}" />
-{{ else }}
-<meta itemprop="image" content="{{ .Site.Params.image | absURL }}" />
-<meta property="og:image" content="{{ .Site.Params.image | absURL }}" />
-<meta name="twitter:image" content="{{ .Site.Params.image | absURL }}" />
-<meta name="twitter:image:src" content="{{ .Site.Params.image | absURL }}" /> 
-{{ end }}
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://www.thenorthglen.com">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Welcome to the North Glengarry | The North Glengarry Restaurant">
+<meta property="og:description" content="The North Glengarry is a fully licensed restaurant. We are renowned for our excellent food, varied menu and fast service, both in house and delivery.">
+<meta property="og:image" content="https://www.thenorthglen.com/img/og.jpg">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="thenorthglen.com">
+<meta property="twitter:url" content="https://www.thenorthglen.com">
+<meta name="twitter:title" content="Welcome to the North Glengarry | The North Glengarry Restaurant">
+<meta name="twitter:description" content="The North Glengarry is a fully licensed restaurant. We are renowned for our excellent food, varied menu and fast service, both in house and delivery.">
+<meta name="twitter:image" content="https://www.thenorthglen.com/img/og.jpg">
 
 <meta property="og:updated_time" content={{ .Lastmod.Format "2006-01-02T15:04:05Z0700" | safeHTML }} />
 <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml" /> 
