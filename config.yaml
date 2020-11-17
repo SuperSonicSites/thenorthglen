@@ -30,7 +30,7 @@ params:
         image: img/og.jpg
         address: 8 Main St S,
         address2:
-        city: Alexandria,
+        city: Alexandria
         region: 'ON' 
         country: Canada 
         postalcode: K0C 1A0
