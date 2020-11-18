@@ -11,7 +11,7 @@
         {{ $display_posts := ((.Site.GetPage "section" "/appetizers").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 columns is-mobile">
-              <div class="column is-6">
+              <div class="column is-8">
                 <div class="menu__item--title">
                 <h4 class="">{{ $post.Params.title }}</h4>
                 {{ if .Params.description }}
@@ -23,22 +23,13 @@
                 {{ end }}
               </div>
             </div>
-              <div class="column is-6 is-flex is-justified-end">
-                <div class="menu__item--price2">
+              <div class="column is-4 is-flex is-justified-end">
+                <div class="menu__item--price2 is-flex is-justified-start is-aligned-end is-column">
                   {{ if .Params.price_s }}
-                  <span class="pr-1 menu__item--price2"><small class="price_prefix">{{ i18n "small" }}</small> {{ $post.Params.price_s }} <small class="price_prefix">{{ i18n "large" }}</small></span>
+                  <div class="pr-1 menu__item--price2"><small class="price_prefix">{{ i18n "small" }}</small><span class="price"> {{ $post.Params.price_s }}</span></div>
+                  <div class="pr-1"><small class="price_prefix">{{ i18n "large" }}</small><span class="price"> {{ $post.Params.price_l }}</span></div>
                   {{ else }}
-                  <span></span>
-                  {{ end }}
-                  {{ if .Params.price_l }}
-                  <span class="pr-1">{{ $post.Params.price_l }}</span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
-                  {{ if .Params.price_lg }}
-                  <span class="pr-2">{{ $post.Params.price_lg }}</span>
-                  {{ else }}
-                  <span></span>
+                  <div class="pr-1"><span class="price"> {{ $post.Params.price_l }}</span></div>
                   {{ end }}
               </div>
                 </div>
@@ -50,7 +41,7 @@
         {{ $display_posts := ((.Site.GetPage "section" "/poutine").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 columns is-mobile">
-              <div class="column is-6">
+              <div class="column is-8">
                 <div class="menu__item--title">
                 <h4 class="">{{ $post.Params.title }}</h4>
                 {{ if .Params.description }}
@@ -62,25 +53,16 @@
                 {{ end }}
               </div>
             </div>
-              <div class="column is-6 is-flex is-justified-end">
-                <div class="menu__item--price2">
-                  {{ if .Params.price_s }}
-                  <span class="pr-1 menu__item--price2"><small class="price_prefix">{{ i18n "small" }}</small> {{ $post.Params.price_s }} <small class="price_prefix">{{ i18n "large" }}</small></span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
-                  {{ if .Params.price_l }}
-                  <span class="pr-1">{{ $post.Params.price_l }}</span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
-                  {{ if .Params.price_lg }}
-                  <span class="pr-2">{{ $post.Params.price_lg }}</span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
+            <div class="column is-4 is-flex is-justified-end">
+              <div class="menu__item--price2 is-flex is-justified-start is-aligned-end is-column">
+                {{ if .Params.price_s }}
+                <div class="pr-1 menu__item--price2"><small class="price_prefix">{{ i18n "small" }}</small><span class="price"> {{ $post.Params.price_s }}</span></div>
+                <div class="pr-1"><small class="price_prefix">{{ i18n "large" }}</small><span class="price"> {{ $post.Params.price_l }}</span></div>
+                {{ else }}
+                <div class="pr-1"><span class="price"> {{ $post.Params.price_l }}</span></div>
+                {{ end }}
+            </div>
               </div>
-                </div>
               </div>
         {{ end }}
 
@@ -90,7 +72,7 @@
         {{ $display_posts := ((.Site.GetPage "section" "/Wraps").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 level is-mobile">
-              <div class="column p-0 is-6">
+              <div class="column p-0 is-8">
                 <div class="menu__item--title">
                 <h4 class="">{{ $post.Params.title }}</h4>
                 {{ if .Params.description }}
@@ -102,25 +84,16 @@
                 {{ end }}
               </div>
             </div>
-              <div class="column is-6 is-flex is-justified-end">
-                <div class="menu__item--price2">
-                  {{ if .Params.price_s }}
-                  <span class="pr-2 menu__item--price2"><small class="price_prefix">Wrap</small> {{ $post.Params.price_s }}</span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
-                  {{ if .Params.price_l }}
-                  <span class="pr-2"><small class="price_prefix">{{ i18n "platter" }}</small> {{ $post.Params.price_l }}</span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
-                  {{ if .Params.price_lg }}
-                  <span class="pr-2">${{ $post.Params.price_lg }}</span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
+            <div class="column is-4 is-flex is-justified-end">
+              <div class="menu__item--price2 is-flex is-justified-start is-aligned-end is-column">
+                {{ if .Params.price_s }}
+                <div class="pr-1 menu__item--price2"><small class="price_prefix">Wrap</small><span class="price"> {{ $post.Params.price_s }}</span></div>
+                <div class="pr-1"><small class="price_prefix">{{ i18n "platter" }}</small><span class="price"> {{ $post.Params.price_l }}</span></div>
+                {{ else }}
+                <div class="pr-1"><span class="price"> {{ $post.Params.price_l }}</span></div>
+                {{ end }}
+            </div>
               </div>
-                </div>
               </div>
         {{ end }}
 
@@ -170,7 +143,7 @@
         {{ $display_posts := ((.Site.GetPage "section" "/Subs").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 level is-mobile">
-              <div class="column p-0">
+              <div class="column is-8 p-0">
                 <div class="menu__item--title">
                 <h4 class="">{{ $post.Params.title }}</h4>
                 {{ if .Params.description }}
@@ -182,25 +155,16 @@
                 {{ end }}
               </div>
             </div>
-              <div class="column is-4 is-flex is-justified-end">
-                <div class="menu__item--price2">
-                  {{ if .Params.price_s }}
-                  <span class="pr-2 menu__item--price2"><small class="price_prefix">Half</small> {{ $post.Params.price_s }}</span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
-                  {{ if .Params.price_l }}
-                  <span class="pr-2"><small class="price_prefix">Whole</small> {{ $post.Params.price_l }}</span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
-                  {{ if .Params.price_lg }}
-                  <span class="pr-2">${{ $post.Params.price_lg }}</span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
+            <div class="column is-4 is-flex is-justified-end">
+              <div class="menu__item--price2 is-flex is-justified-start is-aligned-end is-column">
+                {{ if .Params.price_s }}
+                <div class="pr-1 menu__item--price2"><small class="price_prefix">{{ i18n "half" }}</small><span class="price"> {{ $post.Params.price_s }}</span></div>
+                <div class="pr-1"><small class="price_prefix">{{ i18n "whole" }}</small><span class="price"> {{ $post.Params.price_l }}</span></div>
+                {{ else }}
+                <div class="pr-1"><span class="price"> {{ $post.Params.price_l }}</span></div>
+                {{ end }}
+            </div>
               </div>
-                </div>
               </div>
         {{ end }}
         
@@ -223,25 +187,16 @@
                 {{ end }}
               </div>
             </div>
-              <div class="column is-4 is-flex is-justified-end">
-                <div class="menu__item--price2">
-                  {{ if .Params.price_s }}
-                  <span class="menu__item--price2"><small class="price_prefix">{{ i18n "small" }}</small> {{ $post.Params.price_s }} <small class="price_prefix">{{ i18n "large" }}</small></span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
-                  {{ if .Params.price_l }}
-                  <span class="pr-2"> {{ $post.Params.price_l }}</span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
-                  {{ if .Params.price_lg }}
-                  <span class="pr-2">${{ $post.Params.price_lg }}</span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
+            <div class="column is-4 is-flex is-justified-end">
+              <div class="menu__item--price2 is-flex is-justified-start is-aligned-end is-column">
+                {{ if .Params.price_s }}
+                <div class="pr-1 menu__item--price2"><small class="price_prefix">{{ i18n "half" }}</small><span class="price"> {{ $post.Params.price_s }}</span></div>
+                <div class="pr-1"><small class="price_prefix">{{ i18n "whole" }}</small><span class="price"> {{ $post.Params.price_l }}</span></div>
+                {{ else }}
+                <div class="pr-1"><span class="price"> {{ $post.Params.price_l }}</span></div>
+                {{ end }}
+            </div>
               </div>
-                </div>
               </div>
         {{ end }}
 
@@ -262,25 +217,16 @@
                 {{ end }}
               </div>
             </div>
-              <div class="column is-4 is-flex is-justified-end">
-                <div class="menu__item--price2">
-                  {{ if .Params.price_s }}
-                  <span class="menu__item--price2"><small class="price_prefix">{{ i18n "single" }}</small> {{ $post.Params.price_s }} <small class="price_prefix">{{ i18n "double" }}</small></span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
-                  {{ if .Params.price_l }}
-                  <span class="pr-2"> {{ $post.Params.price_l }}</span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
-                  {{ if .Params.price_lg }}
-                  <span class="pr-2">${{ $post.Params.price_lg }}</span>
-                  {{ else }}
-                  <span></span>
-                  {{ end }}
+            <div class="column is-4 is-flex is-justified-end">
+              <div class="menu__item--price2 is-flex is-justified-start is-aligned-end is-column">
+                {{ if .Params.price_s }}
+                <div class="pr-1 menu__item--price2"><small class="price_prefix">{{ i18n "single" }}</small><span class="price"> {{ $post.Params.price_s }}</span></div>
+                <div class="pr-1"><small class="price_prefix">{{ i18n "double" }}</small><span class="price"> {{ $post.Params.price_l }}</span></div>
+                {{ else }}
+                <div class="pr-1"><span class="price"> {{ $post.Params.price_l }}</span></div>
+                {{ end }}
+            </div>
               </div>
-                </div>
               </div>
         {{ end }}
 
@@ -375,19 +321,19 @@
               </div>
             </div>
               <div class="column is-4 is-flex is-justified-end">
-                <div class="menu__item--price2">
+                <div class="menu__item--price2 is-flex is-justified-start is-aligned-end is-column">
                   {{ if .Params.price_s }}
-                  <span class="pr-2 menu__item--price2"><small class="price_prefix">1lbs</small> {{ $post.Params.price_s }}</span>
+                  <div class="pr-2 menu__item--price2"><small class="price_prefix">1lbs</small> {{ $post.Params.price_s }}</div>
                   {{ else }}
                   <span></span>
                   {{ end }}
                   {{ if .Params.price_l }}
-                  <span class="pr-2"><small class="price_prefix">2lbs</small> {{ $post.Params.price_l }}</span>
+                  <div class="pr-2"><small class="price_prefix">2lbs</small> {{ $post.Params.price_l }}</div>
                   {{ else }}
                   <span></span>
                   {{ end }}
                   {{ if .Params.price_lg }}
-                  <span class="pr-2"><small class="price_prefix">3lbs</small> ${{ $post.Params.price_lg }}</span>
+                  <div class="pr-2"><small class="price_prefix">3lbs</small> ${{ $post.Params.price_lg }}</div>
                   {{ else }}
                   <span></span>
                   {{ end }}

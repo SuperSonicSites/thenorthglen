@@ -33,6 +33,10 @@
   translation: "Petite"
 - id: large
   translation: "Large"
+- id: half
+  translation: "Moitié"
+- id: whole
+  translation: "Entier"
 - id: appetizers
   translation: "Entrées"
 - id: beverages
