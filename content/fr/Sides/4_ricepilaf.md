@@ -1,5 +1,5 @@
 ---
-title: "Rix Pilaf"
+title: "Riz Pilaf"
 description: ""
 price_s: "3.50"
 price_l: ""

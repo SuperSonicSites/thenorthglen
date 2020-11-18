@@ -1,6 +1,19 @@
 <section class="section has-background-dark has-text-white has-text-centered-touch">
 
   <div class="container">
+    {{ if .Params.covid }}
+    <span></span>
+    {{ else }}
+    <div class="is-flex is-aligned-center is-justified-center">
+      {{ if eq .Site.Language.Lang "fr" }}
+      <p class="px-5 text-uppercase">{{ .Site.Params.ctacovidfr }}</p>
+      <a href="{{ .URL | relLangURL }}covid19" class="button is-secondary">{{ i18n "learnmore" }}</a>
+      {{ else }}
+      <p class="px-5 text-uppercase">{{ .Site.Params.ctacovid }}</p>
+      <a href="{{ .URL | relLangURL }}covid19" class="button is-secondary">{{ i18n "learnmore" }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
 
     <div class="columns mt-6">
 

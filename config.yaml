@@ -7,6 +7,8 @@ params:
     usebasin: 'https://usebasin.com/f/1acd00a6378f' #endpoint for forms
     googlemap: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11223.689707104979!2d-74.6359188!3d45.3099926!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1bdadfff001df0c7!2sThe%20North%20Glengarry!5e0!3m2!1sen!2sca!4v1605112402884!5m2!1sen!2sca' # Map code of Google
     gtm: 'GTM-TFFG36B'
+    ctacovid: "Learn more about our COVID-19 precautions & policies"
+    ctacovidfr: "En savoir plus sur nos précautions et politiques COVID-19"
     hours:
         hour1en: 'Mon, Tue - 11:00AM - 9:00PM' #Footer Hours Line #1
         hour2en: 'Wed to Sat - 11:00AM - 10:00PM' #Footer Hours Line #2
