@@ -25,7 +25,7 @@
 - id: contactus
   translation: "Get in Touch"
 - id: contactdetail
-  translation: "Informations"
+  translation: "Information"
 - id: send
   translation: "Send Message"
 
