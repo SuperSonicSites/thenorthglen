@@ -18,3 +18,8 @@ nav {
 .w-100 {
   width: 100%;
 }
+@media(max-width: 468px) {
+.is-size-2 {
+  font-size: 25px !important;
+}
+}
