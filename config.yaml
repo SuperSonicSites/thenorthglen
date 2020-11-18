@@ -84,8 +84,7 @@ languages:
 enableRobotsTXT: true
 disableAliases: true
 disableKinds:
-  - taxonomy
-  - taxonomyTerm
+  - sitemap
 
 sitemap:
   changefreq: monthly
