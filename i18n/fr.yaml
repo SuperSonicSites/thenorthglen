@@ -18,6 +18,8 @@
   translation: "Nom"
 - id: phone
   translation: "Téléphone"
+- id: shortcuts
+  translation: "Raccourcis"
 - id: email
   translation: "Courriel"
 - id: address

@@ -18,6 +18,8 @@
   translation: "Last Name"
 - id: phone
   translation: "Phone"
+- id: shortcuts
+  translation: "Shortcuts"
 - id: email
   translation: "Email"
 - id: address

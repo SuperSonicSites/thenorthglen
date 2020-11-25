@@ -5,9 +5,26 @@
     <main class="container my-5">
         <p class="is-size-4 pb-5 mb-5">{{ .Params.intro }}</p>
 
-
+        <h2 class="is-size-5">Menu Shortcuts</h2>
+        <div class="shortcuts">
+        <a class="quicklink" href="#appetizer">{{ i18n "appetizers" }}</a>
+        <a class="quicklink" href="#poutine">{{ i18n "poutine" }}</a>
+        <a class="quicklink" href="#wraps">{{ i18n "wraps" }}</a>
+        <a class="quicklink" href="#sandwiches">Sandwiches</a>
+        <a class="quicklink" href="#subs">{{ i18n "subs" }}</a>
+        <a class="quicklink" href="#salads">{{ i18n "salads" }}</a>
+        <a class="quicklink" href="#italian">{{ i18n "italian" }}</a>
+        <a class="quicklink" href="#surf">{{ i18n "surf" }}</a>
+        <a class="quicklink" href="#chicken">{{ i18n "chicken" }}</a>
+        <a class="quicklink" href="#sides">{{ i18n "sides" }}</a>
+        <a class="quicklink" href="#addons">{{ i18n "addons" }}</a>
+        <a class="quicklink" href="#pizza">{{ i18n "pizza" }}</a>
+        <a class="quicklink" href="#italian">{{ i18n "italian" }}</a>
+        <a class="quicklink" href="#kidsmenu">{{ i18n "kidsmenu" }}</a>
+        <a class="quicklink" href="#beverages">{{ i18n "beverages" }}</a> 
+      </div>
         <!-- Appetizers-->
-        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "appetizers" }}</h2>
+        <h2 id="appetizer" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "appetizers" }}</h2>
         {{ $display_posts := ((.Site.GetPage "section" "/appetizers").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 columns is-mobile">
@@ -37,7 +54,7 @@
         {{ end }}
 
         <!-- Poutine-->
-        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "poutine" }}</h2>
+        <h2 id="poutine" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "poutine" }}</h2>
         {{ $display_posts := ((.Site.GetPage "section" "/poutine").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 columns is-mobile">
@@ -67,7 +84,7 @@
         {{ end }}
 
         <!-- Wraps -->
-        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "wraps" }}</h2>
+        <h2 id="wraps" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "wraps" }}</h2>
         <h3 class="is-size-4 pb-5">{{ .Params.wrapsintro | safeHTML }}</h3>
         {{ $display_posts := ((.Site.GetPage "section" "/Wraps").Pages) }}
         {{ range $post := $display_posts }}
@@ -98,7 +115,7 @@
         {{ end }}
 
         <!-- Sandwiches -->
-        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">Sandwiches</h2>
+        <h2 id="sandwiches" class="is-size-2 mt-5 pt-5 pb-3 menu_header">Sandwiches</h2>
         <h3 class="is-size-4 pb-5">{{ .Params.sandintro | safeHTML }}</h3>
         {{ $display_posts := ((.Site.GetPage "section" "/Sandwiches").Pages) }}
         {{ range $post := $display_posts }}
@@ -138,7 +155,7 @@
         {{ end }}
         
         <!-- Subs-->
-        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "subs" }}</h2>
+        <h2 id="subs" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "subs" }}</h2>
         <h3 class="is-size-4 pb-5">{{ .Params.subsintro | safeHTML }}</h3>
         {{ $display_posts := ((.Site.GetPage "section" "/Subs").Pages) }}
         {{ range $post := $display_posts }}
@@ -170,7 +187,7 @@
         
 
         <!-- Salads -->
-        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "salads" }}</h2>
+        <h2 id="salads" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "salads" }}</h2>
         <h3 class="is-size-4 pb-5">{{ .Params.saladsintro | safeHTML }}</h3>
         {{ $display_posts := ((.Site.GetPage "section" "/Salads").Pages) }}
         {{ range $post := $display_posts }}
@@ -201,7 +218,7 @@
         {{ end }}
 
         <!-- Surf & Turf -->
-        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "surf" }}</h2>
+        <h2 id="surf" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "surf" }}</h2>
         {{ $display_posts := ((.Site.GetPage "section" "/Surf").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 level is-mobile">
@@ -231,7 +248,7 @@
         {{ end }}
 
         <!-- Italian-->
-        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "italian" }}</h2>
+        <h2 id="italian" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "italian" }}</h2>
         <h3 class="is-size-4 pb-5">{{ .Params.italianintro }}</h3>
         {{ $display_posts := ((.Site.GetPage "section" "/Italian").Pages) }}
         {{ range $post := $display_posts }}
@@ -267,7 +284,7 @@
         {{ end }}
 
         <!-- Chicken-->
-        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "chicken" }}</h2>
+        <h2 id="chicken" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "chicken" }}</h2>
         
         {{ $display_posts := ((.Site.GetPage "section" "/Chicken").Pages) }}
         {{ range $post := $display_posts }}
@@ -302,7 +319,7 @@
             </div>
         {{ end }}
         <!-- Wings -->
-        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "wings" }}</h2>
+        <h2 id="wings" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "wings" }}</h2>
         <h3 class="is-size-4 pb-5">{{ .Params.wingsintro | safeHTML }}</h3>
         <h3 class="is-size-4 pb-5"><strong>{{ .Params.wingspecial}}</strong></h3>
         {{ $display_posts := ((.Site.GetPage "section" "/Wings").Pages) }}
@@ -343,7 +360,7 @@
         {{ end }}
 
         <!-- Sides -->
-        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "sides" }}</h2>
+        <h2 id="sides" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "sides" }}</h2>
         {{ $display_posts := ((.Site.GetPage "section" "/Sides").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 columns is-mobile">
@@ -381,8 +398,8 @@
               </div>
         {{ end }}
 
-        <!-- Sides -->
-        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "addons" }}</h2>
+        <!-- Add-ons -->
+        <h2 id="addons" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "addons" }}</h2>
         {{ $display_posts := ((.Site.GetPage "section" "/Addons").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 columns is-mobile">
@@ -422,7 +439,7 @@
 
 
         <!-- Pizza -->
-        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "pizza" }}</h2>
+        <h2 id="pizza" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "pizza" }}</h2>
         <h3 class="is-size-4 pb-5">{{ .Params.pizzaintro }}</h3>
         <h3 class="is-size-5">{{ i18n "veggies" }}</h3>      
         <p class="pb-2">{{ .Params.pizzaveggies | safeHTML }}</p>
@@ -463,8 +480,8 @@
         {{ end }}
 
         
-
-        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "kidsmenu" }}</h2>
+<!-- Kids Menu -->
+        <h2 id="kidsmenu" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "kidsmenu" }}</h2>
         <h3 class="is-size-4 pb-5">{{ .Params.kidsintro | safeHTML }}</h3>
         {{ $display_posts := ((.Site.GetPage "section" "/kids").Pages) }}
         {{ range $post := $display_posts }}
@@ -504,8 +521,8 @@
         {{ end }}
         
         
-
-        <h2 class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "beverages" }}</h2>
+<!-- Beverages -->
+        <h2 id="beverages" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "beverages" }}</h2>
         {{ $display_posts := ((.Site.GetPage "section" "/Beverages").Pages) }}
         {{ range $post := $display_posts }}
             <div class="menu mb-3 columns is-mobile">
