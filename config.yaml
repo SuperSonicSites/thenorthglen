@@ -83,6 +83,9 @@ languages:
 
 enableRobotsTXT: true
 disableAliases: true
+disableKinds:
+  - categories
+  - tags
 
 sitemap:
   changefreq: monthly
