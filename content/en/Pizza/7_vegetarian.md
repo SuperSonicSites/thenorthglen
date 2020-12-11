@@ -6,4 +6,5 @@ price_m: "20"
 price_l: "22"
 price_xl: "26"
 weight: "7"
+hidden: true
 ---

@@ -5,4 +5,5 @@ description: "+$3.00 - <strong>Ajoutez des légumes</strong>: poivrons verts, oi
 price_s: ""
 price_l: "11"
 weight: "4"
+hidden: true
 ---

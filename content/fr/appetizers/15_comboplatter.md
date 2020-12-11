@@ -4,4 +4,5 @@ description: "Bâtonnets de poulet, poppers jalapeño, rondelles d'oignon, bâto
 price_s: ""
 price_l: "15"
 weight: "16"
+hidden: true
 ---

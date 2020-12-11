@@ -5,4 +5,5 @@ price_s: "7.50"
 price_l: ""
 price_lg: ""
 weight: "3"
+hidden: true
 ---

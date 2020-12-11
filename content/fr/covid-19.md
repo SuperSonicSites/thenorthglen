@@ -5,6 +5,9 @@ layout: single
 bannerh1: "COVID-19"
 slug: covid19
 covid: true
+priority: 0.2
+
+
 policy: "<h2>Chers clients,</h2><br />
 <p>Merci d'avoir choisi The North Glengarry et de nous faire confiance! Nous reconnaissons que COVID-19 nous a tous encouragés à être plus conscients tout au long de notre journée et nous avons mis en œuvre les changements nécessaires dans nos routines quotidiennes. Notre plan d'action «Vivre avec le COVID-19» a été élaboré avec les conseils des autorités responsables de la santé et de la sécurité pour assurer votre sécurité. Rassurez-vous, nous surveillerons quotidiennement ces nouvelles procédures et les ajusterons au besoin pour assurer la sécurité de tous ceux qui mangent dans notre restaurant!</p><br />
 <h2>Mesures de sécurité supplémentaires:</h2>

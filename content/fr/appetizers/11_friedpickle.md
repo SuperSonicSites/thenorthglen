@@ -4,4 +4,5 @@ description: ""
 price_s: ""
 price_l: "7"
 weight: "11"
+hidden: true
 ---

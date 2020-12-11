@@ -63,7 +63,7 @@ languages:
   en:
     languageCode: en
     title: The North Glengarry Restaurant
-    description: Site Tagline
+    description: "The North Glengarry is a fully licensed restaurant. We are renowned for our excellent food, varied menu and fast service, both in house and delivery."
     contentDir: content/en
     menu:
       main:
@@ -83,11 +83,10 @@ languages:
 
 enableRobotsTXT: true
 disableAliases: true
-disableKinds:
-  - sitemap
 
 sitemap:
   changefreq: monthly
+  priority: 0.5
   filename: sitemap.xml
 
 imaging:

@@ -2,6 +2,8 @@
 title: "À Propos De Nous"
 description: "Le duo Adriano et Marie-Claude a toujours rêvé de posséder leur propre restaurant et d'avoir une entreprise familiale. Le restaurant North Glengarry incarne cette atmosphère familiale."
 layout: "about"
+sitemap:
+  priority: 0.9
 
 heading1: "Nous aimons ce que nous faisons."
 

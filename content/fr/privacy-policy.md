@@ -4,6 +4,7 @@ bannerh1: "Politique de Confidentialité"
 layout: privacy-policy
 companyname: "Le Restaurant North Glengarry"
 companyemail: "thenorthglen@gmail.com"
+priority: 0.1
 ---
 ## Politique de Confidentialité
 

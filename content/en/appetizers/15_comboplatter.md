@@ -4,4 +4,5 @@ description: "Chicken fingers, jalapeño poppers, onion rings, cheesesticks & fr
 price_s: ""
 price_l: "15"
 weight: "16"
+hidden: true
 ---

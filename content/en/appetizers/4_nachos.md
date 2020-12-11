@@ -5,4 +5,5 @@ description: "+$3.00 - <strong>Add Veggies</strong>: green peppers, red onions, 
 price_s: ""
 price_l: "11"
 weight: "4"
+hidden: true
 ---

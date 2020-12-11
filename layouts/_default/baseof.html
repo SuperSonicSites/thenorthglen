@@ -19,15 +19,17 @@
     <title>{{.Title}} - {{ $.Site.Title }}</title>
 
     {{- partial "head/schema.html" . }}
-    {{- partial "head/meta.html" . }} {{ if .Params.hidden }}
-
+    {{- partial "head/meta.html" . }} 
+    
+    {{ if .Params.hidden }}
     <meta name="robots" content="noindex" />
-
+    <meta name="googlebot" content="noindex,nofollow" />
     {{ else }}
-
     <meta name="robots" content="index, follow" />
-
-    {{ end }} {{- partial "head/gtm-head.html" . }}
+    <meta name="googlebot" content="index,follow" />
+    {{ end }} 
+    
+    {{- partial "head/gtm-head.html" . }}
   </head>
   <body>
     <div id="content">
