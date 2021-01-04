@@ -10,12 +10,14 @@ params:
     ctacovid: "Learn more about our COVID-19 precautions & policies"
     ctacovidfr: "En savoir plus sur nos précautions et politiques COVID-19"
     hours:
-        hour1en: 'Mon, Tue - 11:00AM - 9:00PM' #Footer Hours Line #1
-        hour2en: 'Wed to Sat - 11:00AM - 10:00PM' #Footer Hours Line #2
-        hour3en: 'Sun - 11:00 - 9:00PM' #Footer Hours Line #3
-        hour1fr: 'Lun, Mar - 11:00AM - 9:00PM' #Footer Hours Line #1 in French / Leave empty if it does not apply
-        hour2fr: 'Mer to Sam - 11:00AM - 10:00PM' #Footer Hours Line #1 in French / Leave empty if it does not apply
-        hour3fr: 'Dim - 11:00 - 9:00PM' #Footer Hours Line #1 in French / Leave empty if it does not apply
+        hour1en: 'Mon: Closed' #Footer Hours Line #1
+        hour2en: 'Tue to Thu: 3:00PM - 8:30PM' #Footer Hours Line #2
+        hour3en: 'Fri & Sat: 12:00 - 8:30PM' #Footer Hours Line #3
+        hour4en: 'Sun: 3:00PM - 8:30PM' #Footer Hours Line #4
+        hour1fr: 'Lun: Fermé' #Footer Hours Line #1 in French / Leave empty if it does not apply
+        hour2fr: 'Mar à Jeu: 3:00PM - 8:30PM' #Footer Hours Line #1 in French / Leave empty if it does not apply
+        hour3fr: 'Ven - Sam: 12:00 - 8:30PM' #Footer Hours Line #1 in French / Leave empty if it does not apply
+        hour4fr: 'Dim: 3:00PM - 8:30PM' #Footer Hours Line #4
     social:
         facebook: 'https://www.facebook.com/TheNorthGlengarry/'
         twitter: ''
@@ -27,7 +29,7 @@ params:
         reviewcount: "531"
         reviewvalue: "4.4" 
         reservation: 'true'
-        openinghour: '"Mo-Tu 11:00-21:00", "We-Sa 11:00-22:00", "Su 11:00-21:00"'
+        openinghour: '"Tu-Th 15:00-20:30", "Fr-Sa 12:00-20:30", "Su 15:00-20:30"'
         logo: android-chrome-512x512
         image: "img/og.jpg"
         address: 8 Main St S,

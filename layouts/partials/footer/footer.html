@@ -7,10 +7,10 @@
     <div class="is-flex is-column is-aligned-center is-justified-center covidbanner">
       {{ if eq .Site.Language.Lang "fr" }}
       <p class="px-5 text-uppercase">{{ .Site.Params.ctacovidfr }}</p>
-      <a href="{{ .URL | relLangURL }}covid19" class="button is-secondary mt-5">{{ i18n "learnmore" }}</a>
+      <a href="{{ .Site.BaseURL | relLangURL }}/covid19" class="button is-secondary mt-5">{{ i18n "learnmore" }}</a>
       {{ else }}
       <p class="px-5 text-uppercase">{{ .Site.Params.ctacovid }}</p>
-      <a href="{{ .URL | relLangURL }}covid19" class="button is-secondary mt-5">{{ i18n "learnmore" }}</a>
+      <a href="{{ .Site.BaseURL | relLangURL }}/covid19" class="button is-secondary mt-5">{{ i18n "learnmore" }}</a>
       {{ end }}
     </div>
     {{ end }}
@@ -71,6 +71,15 @@
           <li class="">{{ .Site.Params.hours.hour3fr }}</li>
           {{ else }}
           <li class="">{{ .Site.Params.hours.hour3en }}</li>
+        {{ end }}
+        <span></span>
+        {{ end }}
+
+        {{ if .Site.Params.hours.hour4en }}
+        {{ if eq .Site.Language.Lang "fr" }}
+          <li class="">{{ .Site.Params.hours.hour4fr }}</li>
+          {{ else }}
+          <li class="">{{ .Site.Params.hours.hour4en }}</li>
         {{ end }}
         <span></span>
         {{ end }}

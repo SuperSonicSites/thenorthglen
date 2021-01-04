@@ -14,7 +14,7 @@ sandintro: "As a platter add $4.00.<br> All platters include fresh cut fries & h
 subsintro: "As a platter add $3.00.<br>All subs are topped with cheese & toasted & finished with shredded lettuce, tomato & pickles. (Except Club sub) "
 saladsintro: "Dressings ~ creamy garlic, balsamic, Greek, blue cheese, Italian, lemon oil, French or Caesar"
 wingsintro: "Dry or tossed in sauce. Served with carrots & ranch dressing. Sauces are available in mild, medium, hot, suicide, honey garlic, sweet chili, BBQ, or salt & pepper"
-kidsintro: "All of our kids meals include juice or milk, & dessert"
+kidsintro: ""
 
 pizzaveggies: "Green Peppers ~ Onions ~ Mushrooms ~ Tomatoes ~ Hot Peppers ~ Green Olives ~ Black Olives"
 pizzameats: "Pepperoni ~ Ground Beef ~ Ham ~ Italian Sausage ~ Steak ~ Bacon ~ Chicken ~ Smoked Meat"

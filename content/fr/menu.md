@@ -17,7 +17,7 @@ sandintro: "Comme plateau, ajoutez $4.<br> Tous les plateaux comprennent des fri
 subsintro: "Comme plateau, ajoutez $3.<br>Tous les sous-marins sont garnis de fromage et grillés et finis avec de la laitue, des tomates et des cornichons. (À l'exception du Sous-Marin Club) "
 saladsintro: "Vinaigrettes ~ ail crémeux, balsamique, grecque, fromage bleu, italien, citron, française ou César"
 wingsintro: "Sèche ou mélangé à la sauce. Servi avec carottes et vinaigrette ranch. Les sauces sont disponibles en version douce, moyenne, piquante, suicide, miel, ail, piment doux, barbecue ou sel et poivre."
-kidsintro: "Tous nos repas pour enfants comprennent du jus ou du lait et un dessert"
+kidsintro: ""
 
 pizzaveggies: "Piments verts ~ Oignons ~ Champignons ~ Tomates ~ Piments forts ~ Olives vertes ~ Olives noires"
 pizzameats: "Pepperoni ~ Boeuf Haché ~ Jambon ~ Saucisse Italienne ~ Steak ~ Bacon ~ Poulet ~ Viande Fumée"
