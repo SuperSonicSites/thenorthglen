@@ -1,5 +1,5 @@
 ---
-title: "Chicken Parm Sub"
+title: "Chicken Parm sub"
 description: 'Breaded cuttlets, covered with our home made meat sauce and mozzarella. Finished with lettuce and tomatoes.'
 price_s: "9"
 price_l: "11"
