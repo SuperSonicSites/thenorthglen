@@ -16,6 +16,8 @@
   translation: "Your Name"
 - id: lastname
   translation: "Last Name"
+- id: specials
+  translation: "Everyday Specials"
 - id: phone
   translation: "Phone"
 - id: shortcuts

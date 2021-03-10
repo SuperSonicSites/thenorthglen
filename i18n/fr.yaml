@@ -18,6 +18,8 @@
   translation: "Nom"
 - id: phone
   translation: "Téléphone"
+- id: specials
+  translation: "Speciaux Quotidiens"
 - id: shortcuts
   translation: "Raccourcis"
 - id: email
@@ -42,7 +44,7 @@
 - id: appetizers
   translation: "Entrées"
 - id: beverages
-  translation: "Breuvaages"
+  translation: "Breuvages"
 - id: chicken
   translation: "Poulet"
 - id: dinner

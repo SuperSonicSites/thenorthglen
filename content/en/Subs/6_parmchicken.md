@@ -1,0 +1,9 @@
+---
+title: "Chicken Parm Sub"
+description: 'Breaded cuttlets, covered with our home made meat sauce and mozzarella. Finished with lettuce and tomatoes.'
+price_s: "9"
+price_l: "11"
+price_lg: ""
+weight: "6"
+hidden: true
+---

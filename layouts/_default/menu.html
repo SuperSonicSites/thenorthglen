@@ -7,6 +7,7 @@
 
         <h2 class="is-size-5">{{ i18n "shortcuts" }}</h2>
         <div class="shortcuts">
+        <a class="quicklink quicklink2" href="#specials">{{ i18n "specials" }}</a> 
         <a class="quicklink" href="#appetizer">{{ i18n "appetizers" }}</a>
         <a class="quicklink" href="#poutine">{{ i18n "poutine" }}</a>
         <a class="quicklink" href="#wraps">{{ i18n "wraps" }}</a>
@@ -22,6 +23,7 @@
         <a class="quicklink" href="#italian">{{ i18n "italian" }}</a>
         <a class="quicklink" href="#kidsmenu">{{ i18n "kidsmenu" }}</a>
         <a class="quicklink" href="#beverages">{{ i18n "beverages" }}</a> 
+        
       </div>
         <!-- Appetizers-->
         <h2 id="appetizer" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "appetizers" }}</h2>
@@ -559,7 +561,10 @@
                 </div>
               </div>
         {{ end }}
-
+<!-- Beverages -->{{ .Site.BaseURL }}img/mainlogo.png
+        <h2 id="specials" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "specials" }}</h2>
+        <img src="{{ .Site.BaseURL }}img/special.jpg" alt="Daily Specials Page 1" width="100%">
+        <img src="{{ .Site.BaseURL }}img/special2.jpg" alt="Daily Specials Page 2" width="100%">
         </main>
 </section>
 
