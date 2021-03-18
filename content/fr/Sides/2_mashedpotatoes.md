@@ -1,9 +1,0 @@
----
-title: "Purée de pomme de terre"
-description: ""
-price_s: "4"
-price_l: ""
-price_lg: ""
-weight: "2"
-hidden: true
----

@@ -1,8 +1,0 @@
----
-title: "Bâtonnets de courgette"
-description: ""
-price_s: ""
-price_l: "9"
-weight: "10"
-hidden: true
----

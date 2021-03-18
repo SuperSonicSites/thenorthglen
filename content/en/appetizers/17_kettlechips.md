@@ -1,8 +1,0 @@
----
-title: "Kettle chips"
-description: "A generous portion of freshly fried kettle chips, served with a house made chipotle mayo."
-price_s: ""
-price_l: "9"
-weight: "5"
-hidden: true
----

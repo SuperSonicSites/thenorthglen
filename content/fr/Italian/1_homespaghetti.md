@@ -1,9 +1,0 @@
----
-title: "Spaghetti"
-description: ""
-price_s: ""
-price_l: "9"
-price_lg: ""
-weight: "1"
-hidden: true
----

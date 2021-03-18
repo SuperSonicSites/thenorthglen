@@ -1,0 +1,24 @@
+<div class="menu mb-3 columns is-mobile">
+    <div class="column is-8">
+      <div class="menu__item--title">
+      <h4 class="">{{ .title }}</h4>
+      {{ if .description }}
+      <div class="menu__item--desc">
+      <p>{{ .description | safeHTML }}</p>
+    </div>
+      {{ else }}
+      <span></span>
+      {{ end }}
+    </div>
+  </div>
+    <div class="column is-4 is-flex is-justified-end">
+      <div class="menu__item--price2 is-flex is-justified-start is-aligned-end is-column">
+        {{ if .price_s }}
+        <div class="pr-1 menu__item--price2"><small class="price_prefix">{{ i18n "small" }}</small><span class="price"> {{ .price_s }}</span></div>
+        <div class="pr-1"><small class="price_prefix">{{ i18n "large" }}</small><span class="price"> {{ .Params.price_l }}</span></div>
+        {{ else }}
+        <div class="pr-1"><span class="price"> {{ .price_l }}</span></div>
+        {{ end }}
+    </div>
+      </div>
+    </div>

@@ -1,9 +1,0 @@
----
-title: "Greek Salad"
-description: ""
-price_s: "10"
-price_l: "13"
-price_lg: ""
-weight: "3"
-hidden: true
----

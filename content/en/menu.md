@@ -3,7 +3,7 @@ title: "Our Menu"
 description: "TBD"
 layout: "menu"
 intro: "Enjoy delicious flavours and generous portions for great value! House favourites include English style fish & chips, traditional and adventurous pizzas, and juicy grilled steaks."
-wingspecial: "$6 ½ per lb Wing Night Wednesdays Only After 4PM ~ Boneless not included"
+wingspecial: "$6 ½ per lb Wing Night Wednesdays Only After 4PM"
 italianintro: "All our Italian selections include garlic bread"
 pizzaintro: "Gluten Free add $4 to small size only"
 plattersintro: "All platters are served with fresh-cut fries, & homemade coleslaw<br>

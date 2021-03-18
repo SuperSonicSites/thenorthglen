@@ -1,9 +1,0 @@
----
-title: "Nachos with Cheese"
-description: "+$3.00 - <strong>Add Veggies</strong>: green peppers, red onions, tomatoes & green olives<br>
-+$5.00 - <strong>Add Fresh Chicken or Ground Beef</strong>"
-price_s: ""
-price_l: "11"
-weight: "4"
-hidden: true
----

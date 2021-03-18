@@ -1,0 +1,20 @@
+<div class="menu mb-3">
+    <div class="columns is-mobile">
+      <div class="column menu__item--title">
+        <h4 class="">{{ .title | safeHTML }}</h4>
+        <div class="menu__item--desc">
+          {{ if .description }}
+          <p>{{ .description | safeHTML }}</p>
+          {{ else }}
+          <span></span>
+          {{ end }}
+        </div>
+      </div>
+      
+      <div class="column is-1 pizza has-text-right has-text-weight-bold">{{ .price_s }}</div>
+      <div class="column is-1 pizza has-text-right has-text-weight-bold">{{ .price_m }}</div>
+      <div class="column is-1 pizza has-text-right has-text-weight-bold">{{ .price_l }}</div>
+      <div class="column is-1 pizza has-text-right has-text-weight-bold">{{ .price_xl }}</div>
+    </div>
+
+  </div>

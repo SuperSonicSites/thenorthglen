@@ -1,9 +1,0 @@
----
-title: '"Fish & Chips" style anglais'
-description: "Notre généreuse portion d'aiglefin enrobée de notre propre recette de pâte à la bière et frite à la perfection. Servi avec frites fraîchement coupées, sauce tartare et quartier de citron"
-price_s: ""
-price_l: "15.50"
-price_lg: ""
-weight: "5"
-hidden: true
----

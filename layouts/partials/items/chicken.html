@@ -1,0 +1,29 @@
+<div class="menu mb-3">
+    <div class="menu__item--title">
+    <h4 class="">{{ .title }}</h4>
+    <div class="menu__item--price">
+      {{ if .price_s }}
+      <span class="pr-2">{{ .price_s }}</span>
+      {{ else }}
+      <span></span>
+      {{ end }}
+      {{ if .price_l }}
+      <span class="pr-2">{{ .price_l }}</span>
+      {{ else }}
+      <span></span>
+      {{ end }}
+      {{ if .price_lg }}
+      <span class="pr-2">{{ .price_lg }}</span>
+      {{ else }}
+      <span></span>
+      {{ end }}
+  </div>
+    </div>
+    {{ if .description }}
+  <div class="menu__item--desc">
+    <p>{{ .description | safeHTML }}</p>
+  </div>
+    {{ else }}
+    <span></span>
+    {{ end }}
+</div>

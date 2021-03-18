@@ -1,8 +1,0 @@
----
-title: "Poutine à la viande fumée"
-description: ""
-price_s: "10"
-price_l: "14"
-weight: "5"
-hidden: true
----
