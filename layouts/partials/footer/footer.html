@@ -10,7 +10,7 @@
       <a href="{{ $.Site.BaseURL | relLangURL }}/covid19" class="button is-secondary mt-5">{{ i18n "learnmore" }}</a>
       {{ else }}
       <p class="px-5 text-uppercase">{{ .Site.Params.ctacovid }}</p>
-      <a href="{{ $.Site.BaseURL | relLangURL }}/covid19" class="button is-secondary mt-5">{{ i18n "learnmore" }}</a>
+      <a href="{{ $.Site.BaseURL }}covid19" class="button is-secondary mt-5">{{ i18n "learnmore" }}</a>
       {{ end }}
     </div>
     {{ end }}
