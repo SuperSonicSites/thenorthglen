@@ -10,14 +10,14 @@ params:
     ctacovid: "Learn more about our COVID-19 precautions & policies"
     ctacovidfr: "En savoir plus sur nos précautions et politiques COVID-19"
     hours:
-        hour1en: 'Mon: 3:00PM - 9:00PM' #Footer Hours Line #1
-        hour2en: 'Tue - Thu: 11:00AM - 9:00PM' #Footer Hours Line #2
-        hour3en: 'Fri - Sat: 11:00AM - 9:00PM' #Footer Hours Line #3
-        hour4en: 'Sun: 11:00AM - 9:00PM' #Footer Hours Line #4
-        hour1fr: 'Lun: 3:00PM - 9:00PM' #Footer Hours Line #1 in French / Leave empty if it does not apply
-        hour2fr: 'Mar - Jeu: 11:00AM - 9:00PM' #Footer Hours Line #1 in French / Leave empty if it does not apply
-        hour3fr: 'Ven - Sam: 11:00AM - 9:00PM' #Footer Hours Line #1 in French / Leave empty if it does not apply
-        hour4fr: 'Dim: 11:00AM - 9:00PM' #Footer Hours Line #4
+        hour1en: 'Mon: CLOSED' #Footer Hours Line #1
+        hour2en: 'Tue - Sat: 11:00AM - 9:00PM' #Footer Hours Line #2
+        #hour3en: 'Sat: 11:00AM - 9:00PM' #Footer Hours Line #3
+        hour4en: 'Sun: 11:00AM - 8:30PM' #Footer Hours Line #4
+        hour1fr: 'Lun: FERMÉ' #Footer Hours Line #1 in French / Leave empty if it does not apply
+        hour2fr: 'Mar - Sam: 11:00AM - 9:00PM' #Footer Hours Line #1 in French / Leave empty if it does not apply
+        #hour3fr: 'Ven - Sam: 11:00AM - 9:00PM' #Footer Hours Line #1 in French / Leave empty if it does not apply
+        hour4fr: 'Dim: 11:00AM - 8:30PM' #Footer Hours Line #4
     social:
         facebook: 'https://www.facebook.com/TheNorthGlengarry/'
         twitter: ''
