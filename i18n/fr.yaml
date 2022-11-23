@@ -72,7 +72,7 @@
 - id: double
   translation: "Double"
 - id: sides
-  translation: "Plats d’Accompagnement"
+  translation: "Plats d’Accompagnement / Ajouts"
 - id: addons
   translation: "Ajouts"
 - id: wings

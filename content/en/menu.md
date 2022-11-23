@@ -5,6 +5,8 @@ layout: "menu"
 intro: "Enjoy delicious flavours and generous portions for great value! House favourites include English style fish & chips, traditional and adventurous pizzas, and juicy grilled steaks."
 wingspecial: "$8 ½ per lb for delivery and pick up Wing Night Wednesdays Only After 4PM"
 italianintro: "All our Italian selections include garlic bread"
+italianintro2: "+$2 Make it all dressed"
+sidesintro: "+$1.50 for extra sauces, dressing, or gravy"
 pizzaintro: "Gluten Free add $4 to small size only"
 plattersintro: "All platters are served with fresh-cut fries, & homemade coleslaw<br>
 Gluten free buns available for $1½<br>

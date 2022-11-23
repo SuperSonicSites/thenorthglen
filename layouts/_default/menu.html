@@ -18,7 +18,6 @@
         <a class="quicklink" href="#surf">{{ i18n "surf" }}</a>
         <a class="quicklink" href="#chicken">{{ i18n "chicken" }}</a>
         <a class="quicklink" href="#sides">{{ i18n "sides" }}</a>
-        <a class="quicklink" href="#addons">{{ i18n "addons" }}</a>
         <a class="quicklink" href="#pizza">{{ i18n "pizza" }}</a>
         <a class="quicklink" href="#italian">{{ i18n "italian" }}</a>
         <a class="quicklink" href="#kidsmenu">{{ i18n "kidsmenu" }}</a>
@@ -139,6 +138,7 @@
         <!-- Italian-->
         <h2 id="italian" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "italian" }}</h2>
         <h3 class="is-size-4 pb-5">{{ .Params.italianintro }}</h3>
+        <p>{{ .Params.italianintro2 }}</p>
 
         {{ if eq .Site.Language.Lang "en" }}
         {{ range sort $.Site.Data.en.Italian "weight" }}
@@ -186,7 +186,7 @@
 
         <!-- Sides -->
         <h2 id="sides" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "sides" }}</h2>
-
+        <h3 class="is-size-4 pb-5">{{ .Params.sidesintro | safeHTML }}</h3>
         {{ if eq .Site.Language.Lang "en" }}
         {{ range sort $.Site.Data.en.Sides "weight" }}
             {{- partial "items/sides" .}}
@@ -200,18 +200,7 @@
             
 
 
-        <!-- Add-ons -->
-        <h2 id="addons" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "addons" }}</h2>
-
-        {{ if eq .Site.Language.Lang "en" }}
-        {{ range sort $.Site.Data.en.addons "weight" }}
-            {{- partial "items/addons" .}}
-        {{ end }}
-        {{ else }}
-        {{ range sort $.Site.Data.fr.addons "weight" }}
-            {{- partial "items/addons" .}}
-        {{ end }}
-        {{ end }}
+       
         <!-- Pizza -->
         <h2 id="pizza" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "pizza" }}</h2>
         <h3 class="is-size-4 pb-5">{{ .Params.pizzaintro }}</h3>
@@ -257,21 +246,6 @@
         {{ else }}
         {{ range sort $.Site.Data.fr.kids "weight" }}
             {{- partial "items/kids" .}}
-        {{ end }}
-        {{ end }}
-            
-        
-        
-<!-- Beverages -->
-        <h2 id="beverages" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "beverages" }}</h2>
-
-        {{ if eq .Site.Language.Lang "en" }}
-        {{ range sort $.Site.Data.en.Beverages "weight" }}
-            {{- partial "items/beverages" .}}
-        {{ end }}
-        {{ else }}
-        {{ range sort $.Site.Data.fr.Beverages "weight" }}
-            {{- partial "items/beverages" .}}
         {{ end }}
         {{ end }}
 
