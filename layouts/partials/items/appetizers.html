@@ -15,7 +15,7 @@
       <div class="menu__item--price2 is-flex is-justified-start is-aligned-end is-column">
         {{ if .price_s }}
         <div class="pr-1 menu__item--price2"><small class="price_prefix">{{ i18n "small" }}</small><span class="price"> {{ .price_s }}</span></div>
-        <div class="pr-1"><small class="price_prefix">{{ i18n "large" }}</small><span class="price"> {{ .Params.price_l }}</span></div>
+        <div class="pr-1"><small class="price_prefix">{{ i18n "large" }}</small><span class="price"> {{ .price_l }}</span></div>
         {{ else }}
         <div class="pr-1"><span class="price"> {{ .price_l }}</span></div>
         {{ end }}
