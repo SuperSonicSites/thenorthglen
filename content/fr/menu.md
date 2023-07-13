@@ -6,7 +6,7 @@ sitemap:
   priority: 1
 
 intro: "Dégustez de délicieuses saveurs et des portions généreuses pour un excellent rapport qualité-prix! Les plats préférés de la maison incluent le fish & chips de style anglais, les pizzas traditionnelles et aventureuses et les steaks grillés à la perfection."
-wingspecial: "$8½ par lb - Soirée Ailes de Poulet les mercredis seulement après 16 h ~ Ailes Désossé non inclus"
+wingspecial: "$8½ par lb - Soirée Ailes de Poulet les mercredis seulement après 16 h"
 italianintro: "Toutes nos sélections italiennes comprennent du pain à l'ail"
 italianintro2: "+$2 Faites-le tout garnie"
 pizzaintro: "Pour option sans gluten ajouter $4 à la petite taille seulement"
