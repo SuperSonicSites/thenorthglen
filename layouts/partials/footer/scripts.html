@@ -7,3 +7,10 @@
 <script>
   AOS.init();
 </script>
+
+<!-- Display Current Year in Footer -->
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        document.getElementById('year').textContent = new Date().getFullYear();
+    });
+</script>
