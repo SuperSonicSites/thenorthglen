@@ -17,7 +17,6 @@
         <a class="quicklink" href="#italian">{{ i18n "italian" }}</a>
         <a class="quicklink" href="#surf">{{ i18n "surf" }}</a>
         <a class="quicklink" href="#chicken">{{ i18n "chicken" }}</a>
-        <a class="quicklink" href="#sides">{{ i18n "sides" }}</a>
         <a class="quicklink" href="#pizza">{{ i18n "pizza" }}</a>
         <a class="quicklink" href="#italian">{{ i18n "italian" }}</a>
         <a class="quicklink" href="#kidsmenu">{{ i18n "kidsmenu" }}</a>
@@ -184,7 +183,7 @@
             
 
 
-        <!-- Sides -->
+        <!-- Sides 
         <h2 id="sides" class="is-size-2 mt-5 pt-5 pb-3 menu_header">{{ i18n "sides" }}</h2>
         <h3 class="is-size-4 pb-5">{{ .Params.sidesintro | safeHTML }}</h3>
         {{ if eq .Site.Language.Lang "en" }}
@@ -194,8 +193,8 @@
         {{ else }}
         {{ range sort $.Site.Data.fr.Sides "weight" }}
             {{- partial "items/sides" .}}
-        {{ end }}
-        {{ end }}
+        {{ end }} 
+        {{ end }} -->
 
             
 
